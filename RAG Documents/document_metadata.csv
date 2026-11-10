@@ -1,5 +1,5 @@
-index,filename,source_url,download_url,source_title,source_type
-1,10 Tips for Studying in Germany,https://www.expatrio.com/,https://www.expatrio.com/library/study-in-germany,Expatrio,PDF
+oindex,filename,source_url,download_url,source_title,source_type
+1,10 Tips for Studying in Germany,https://www.expatrio.com/,https://www.expatrio.com/library/study-in-germany,Expatrio,Screenshot
 2,Anti Racism Discrimination,https://www.antidiskriminierungsstelle.gov.de/EN/homepage/homepage-node.html,https://www.antidiskriminierungsstelle.gov.de/EN/about-discrimination/grounds-for-discrimination/ethnic-origin-racism/ethnic-origin-racism-node.html,Federal Anti-Discrimination Agency,Screenshot
 3,Anti Gender Discrimination,https://www.antidiskriminierungsstelle.gov.de/EN/homepage/homepage-node.html,https://www.antidiskriminierungsstelle.gov.de/EN/about-discrimination/grounds-for-discrimination/gender-and-gender-identity/gender-and-gender-identity-node.html,Federal Anti-Discrimination Agency,Screenshot
 4,Anti Religion Discrimination,https://www.antidiskriminierungsstelle.gov.de/EN/homepage/homepage-node.html,https://www.antidiskriminierungsstelle.gov.de/EN/about-discrimination/grounds-for-discrimination/religion-and-beliefs/religion-and-beliefs-node.html,Federal Anti-Discrimination Agency,Screenshot
@@ -24,3 +24,29 @@ index,filename,source_url,download_url,source_title,source_type
 23,Miete & Mietzahlung - Das müssen Sie dazu wissen,https://www.mietrecht.com/,https://www.mietrecht.com/miete/,Mietrecht.com,Screenshot
 24,Mieterrechte und Mieterpflichten in Deutschland - Ein umfassender Leitfaden,https://www.mietrecht.com/,https://www.mietrecht.com/mieterrechte/#alles-wichtige-ueber-mieterrechte-und-mieterpflichten,Mietrecht.com,Screenshot
 25,Mietkaution: Zulässige Vorgehensweise und rechtliche Vorgaben,https://www.mietrecht.com/,https://www.mietrecht.com/mietkaution/,Mietrecht.com,Screenshot
+26,Mietkaution per Rückzahlung: Was gilt im Mietrecht?,https://www.mietrecht.com/,https://www.mietrecht.com/mietkaution-rueckzahlung/,Mietrecht.com,Screenshot
+27,Nebenkosten - Die zweite Miete im Mietrecht,https://www.mietrecht.com/,https://www.mietrecht.com/nebenkosten/,Mietrecht.com,Screenshot
+28,Wem steht der Schadensersatz im Mietrecht zu,https://www.mietrecht.com/,https://www.mietrecht.com/schadensersatz-mietrecht/,Mietrecht.com,Screenshot
+29,Wohnung mieten - Was Sie hier beachten sollten,https://www.mietrecht.com/,https://www.mietrecht.com/wohnung-mieten/,Mietrecht.com,Screenshot
+30,Wohnungsübergabeprotokoll - Für Mieter und Vermieter gleich wichtig,https://www.mietrecht.com/,https://www.mietrecht.com/wohnungsuebergabeprotokoll/,Mietrecht.com,Screenshot
+31,Zimmerlautstärke - Was ist in Mietwohnungen wichtig,https://www.mietrecht.com/,https://www.mietrecht.com/zimmerlautstaerke/,Mietrecht.com,Screenshot
+32,Mieterhöhung - Was zulässig ist und was nicht,https://www.mystipendium.de/,https://www.mystipendium.de/geld/mieterhoehung,myStipendium,Screenshot
+33,FAQ_uni_assist_get_info,https://www.uni-assist.de/,https://www.uni-assist.de/faq/vorab-informieren/,UniAssist,Screenshot
+34,FAQ_uni_assist_plan_applications,https://www.uni-assist.de/,https://www.uni-assist.de/en/faqs/plan-your-application/,UniAssist,Screenshot
+35,Broadcasting Licence Fee,https://www.studierendenwerke.de/,https://www.studierendenwerke.de/fileadmin/user_upload/251212_DSW_SIK-Frings_Rundfunk_en_web.pdf,Deutsches Studentenwerk,PDF
+36,Internationale Studierende mit Kindern Aufenthalts- und sozialrechtliche Bestimmungen,https://www.studierendenwerke.de/,https://www.studierendenwerke.de/fileadmin/user_upload/20260723_SFS-Frings_Kinder_de_WEB_bar_korr.pdf,Deutsches Studentenwerk,PDF
+37,Job Regulations for International Students in Germany,https://www.mietrecht.com/,https://www.studierendenwerke.de/fileadmin/user_upload/240904_DSW_SIK-Flyer_en_web.pdf,Deutsches Studentenwerk,PDF
+38,Jobbing_Web_Flyer_EN,https://www.studierendenwerke.de/,https://www.studierendenwerke.de/fileadmin/user_upload/260120_DSW_Flyer_Jobbing_web.pdf,Deutsches Studentenwerk,PDF
+39,Residency and Social Security Law,https://www.studierendenwerke.de/,https://www.studierendenwerke.de/fileadmin/user_upload/251013_DSW_SIK-Frings_en_web.pdf,Deutsches Studentenwerk,PDF
+40,The student survey in Germany - 22nd Social Survey,https://www.studierendenwerke.de/,https://www.studierendenwerke.de/fileadmin/user_upload/22._Soz_Exec_Summary_EN_barrierefrei.pdf,Deutsches Studentenwerk,PDF
+41,Studying in Germany - A Comprehensive Guide,https://www.expatrio.com/,https://www.expatrio.com/library/study-in-germany,Expatrio,PDF
+42,How to Study in Germany,https://www.studying-in-germany.org/,https://lp.studying-in-germany.org/ebook/,Study in Germany,PDF
+43,The Essential Guide to Studying in Germany, https://www.studying-in-germany.org/, https://lp.studying-in-germany.org/ebook/mia-zoe-guide-studying-germany/,Study in Germany,PDF
+44,The German Healthcare System,https://www.bundesgesundheitsministerium.de/en/,https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Gesundheit/Broschueren/200629_BMG_Das_deutsche_Gesundheitssystem_EN.pdf,Federal Ministry of Health, PDF
+45,Guide on German Healthcare for Students,https://germanpedia.com/,https://germanpedia.com/german-healthcare-english-ebook/#get-your-copy-student,GermanPedia, PDF
+46,Health for all,https://www.bundesgesundheitsministerium.de/en/,https://www.migration-gesundheit.bund.de/fileadmin/Dateien/Publikationen/Gesundheit/wegweiser_gesundheit/english.wegweiser-gesundheit.2022.pdf,Federal Ministry of Health, PDF
+47,Healthy in Germany,https://www.bundesgesundheitsministerium.de/en/,https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Ministerium/Broschueren/BMG_Ratgeber_Gesund_in_Deutschland_EN_bf.pdf,Federal Ministry of Health, PDF
+48,Bürgschaft für die Miete,https://www.mietrecht.com/,https://www.mietrecht.com/ebook-buergschaft.pdf,Mietrecht.com, PDF
+49,Eigenbedarfskündigung - Informationen für Mieter,https://www.mietrecht.com/,https://www.mietrecht.com/eigenbedarfskuendigung-informationen-fuer-mieter.pdf,Mietrecht.com, PDF
+50,Healthy in Germany,https://www.bundesgesundheitsministerium.de/en/,https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Ministerium/Broschueren/BMG_Ratgeber_Gesund_in_Deutschland_EN_bf.pdf,Federal Ministry of Health, PDF
+
