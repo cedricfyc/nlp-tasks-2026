@@ -1,0 +1,500 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json: 100%
+ 727/727 [00:00<00:00, 20.3kB/s]
+tokenizer_config.json: 100%
+ 9.71k/9.71k [00:00<00:00, 237kB/s]
+vocab.json: 100%
+ 2.78M/2.78M [00:00<00:00, 18.1MB/s]
+merges.txt: 100%
+ 1.67M/1.67M [00:00<00:00, 17.7MB/s]
+tokenizer.json: reconstructing file: 100%
+ 11.4MB / 11.4MB, 1.12MB/s  
+tokenizer.json: downloading bytes: 
+ 3.40MB,  332kB/s  
+modules.json: 100%
+ 349/349 [00:00<00:00, 9.48kB/s]
+config_sentence_transformers.json: 100%
+ 215/215 [00:00<00:00, 6.57kB/s]
+README.md: 100%
+ 17.2k/17.2k [00:00<00:00, 1.05MB/s]
+model.safetensors: reconstructing file: 100%
+ 1.19GB / 1.19GB, 82.2MB/s  
+model.safetensors: downloading bytes: 
+ 1.04GB, 74.2MB/s  
+Loading weights: 100%
+ 310/310 [00:01<00:00, 278.69it/s]
+config.json: 100%
+ 313/313 [00:00<00:00, 11.4kB/s]
+Loading weights: 100%
+ 770/770 [00:00<00:00, 4067.35it/s]
+/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py:560: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/Convolution.cpp:1104.)
+  return F.conv2d(
+[WARNING] 2026-11-13 20:54:13,209 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 20:54:14,197 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 20:54:14,795 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 20:54:15,027 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 20:54:15,264 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[1/76] 1 '10 Tips for Studying in Germany': 16 chunks in 29.3s
+[2/76] 2 'Anti Racism Discrimination': 16 chunks in 10.9s
+[3/76] 3 'Anti Gender Identity Discrimination': 17 chunks in 11.0s
+[4/76] 4 'Anti Religion Discrimination': 12 chunks in 14.1s
+[5/76] 5 'Anti Disability Discrimination': 19 chunks in 13.8s
+[6/76] 6 'Anti Age Discrimination': 8 chunks in 3.8s
+[7/76] 7 'Anti Sexual Discrimination': 9 chunks in 6.8s
+[8/76] 8 'Federal Act on Registration (Bundesmeldegesetz – BMG)': 86 chunks in 12.4s
+[9/76] 9 'First Steps in Germany': 7 chunks in 6.7s
+[10/76] 10 'German Citizenship': 12 chunks in 8.7s
+[11/76] 11 'Locating Addresses and Persons': 6 chunks in 4.1s
+[12/76] 12 'Studying in Germany': 12 chunks in 12.4s
+[13/76] 13 'Working and Living in Germany': 16 chunks in 14.6s
+[14/76] 14 'Visa for Germany': 29 chunks in 31.3s
+[15/76] 15 'Settling in Germany': 16 chunks in 24.3s
+[16/76] 16 'The Electronic Residence Title': 5 chunks in 4.2s
+[17/76] 17 'Wichtige Regelungen und Rechte fuer Mieterinnen und Mieter': 14 chunks in 15.0s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[18/76] 18 'GermanPedia - Personal Liability Insurance Germany': 41 chunks in 68.0s
+[19/76] 19 'SCHUFA - Germany's Credit Score System Explained': 31 chunks in 11.3s
+[20/76] 20 'Auszug - Das Mietrecht definiert bestimmte Punkte': 14 chunks in 18.0s
+[21/76] 21 'Betriebskosten im Mietvertrag - Alle Informationen zu den Nebenkosten': 16 chunks in 17.3s
+[22/76] 22 'Kuendigung vom Mietvertrag zurueckziehen': 9 chunks in 11.3s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[23/76] 23 'Miete & Mietzahlung - Das muessen Sie dazu wissen': 18 chunks in 27.3s
+[24/76] 24 'Mieterrechte und Mieterpflichten in Deutschland - Ein umfassender Leitfaden': 18 chunks in 23.8s
+[25/76] 25 'Mietkaution - Zulaessige Vorgehensweise und rechtliche Vorgaben': 16 chunks in 21.9s
+[26/76] 26 'Mietkaution per Rueckzahlung - Was gilt im Mietrecht': 17 chunks in 21.5s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[27/76] 27 'Nebenkosten - Die zweite Miete im Mietrecht': 13 chunks in 19.5s
+[28/76] 28 'Wem steht der Schadensersatz im Mietrecht zu': 12 chunks in 14.2s
+[29/76] 29 'Wohnung mieten - Was Sie hier beachten sollten': 18 chunks in 23.8s
+[30/76] 30 'Wohnungsuebergabeprotokoll - Fuer Mieter und Vermieter gleich wichtig': 16 chunks in 20.0s
+[31/76] 31 'Zimmerlautstaerke - Was ist in Mietwohnungen wichtig': 9 chunks in 10.0s
+[32/76] 32 'Mieterhoehung - Was zulaessig ist und was nicht': 32 chunks in 45.6s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[33/76] 33 'FAQ_uni_assist_get_info': 18 chunks in 2.9s
+[WARNING] 2026-11-13 21:03:32,321 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:03:32,652 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:03:34,761 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:03:36,096 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[34/76] 34 'FAQ_uni_assist_plan_applications': 33 chunks in 27.9s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[35/76] 35 'Broadcasting Licence Fee': 101 chunks in 25.8s
+[WARNING] 2026-11-13 21:04:23,487 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:04:28,863 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:04:35,602 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[36/76] 36 'Internationale Studierende mit Kindern Aufenthalts- und sozialrechtliche Bestimmungen': 303 chunks in 38.8s
+[WARNING] 2026-11-13 21:05:00,831 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[37/76] 37 'Job Regulations for International Students in Germany': 15 chunks in 2.5s
+[38/76] 38 'Jobbing_Web_Flyer_EN': 18 chunks in 2.6s
+[WARNING] 2026-11-13 21:05:09,903 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:05:33,145 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[39/76] 39 'Residency and Social Security Law': 354 chunks in 55.4s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:06:03,241 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:06:03,712 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[40/76] 40 'The student survey in Germany - 22nd Social Survey': 34 chunks in 6.4s
+[WARNING] 2026-11-13 21:06:09,069 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:06:10,191 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:06:10,466 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[41/76] 41 'Studying in Germany - A Comprehensive Guide': 42 chunks in 15.8s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[42/76] 42 'How to Study in Germany': 43 chunks in 51.3s
+[WARNING] 2026-11-13 21:07:19,444 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:24,667 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:24,877 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:25,118 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:27,611 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:28,915 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:29,082 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[43/76] 43 'The Essential Guide to Studying in Germany': 177 chunks in 22.8s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:42,339 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:42,773 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:44,800 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:45,343 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:45,795 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:47,514 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:48,274 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:50,944 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:52,159 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:07:55,185 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[44/76] 44 'The German Healthcare System': 135 chunks in 26.3s
+[45/76] 45 'Guide on German Healthcare for Students': 207 chunks in 40.8s
+[46/76] 46 'Health for all': 71 chunks in 11.4s
+[WARNING] 2026-11-13 21:08:59,478 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:06,074 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:07,627 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:12,395 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:13,161 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:14,008 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:15,903 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:16,752 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:19,392 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:19,576 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:20,340 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:21,210 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:22,995 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:23,190 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:23,252 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[47/76] 47 'Healthy in Germany': 223 chunks in 41.4s
+[WARNING] 2026-11-13 21:09:38,363 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:09:44,370 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[48/76] 48 'Buergschaft fuer die Miete': 29 chunks in 11.4s
+[WARNING] 2026-11-13 21:09:50,080 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[49/76] 49 'Eigenbedarfskuendigung - Informationen fuer Mieter': 30 chunks in 11.1s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:25,254 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[50/76] 50 'Wohnraummietrecht': 343 chunks in 47.4s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:50,957 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:52,164 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:52,228 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:53,204 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:54,388 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:55,138 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:10:56,538 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:MatchingPostProcessor:2 of 76 pdf cells matched neither a row nor a column band of the 488x3 grid and were dropped from the table
+WARNING:docling.models.stages.table_structure.table_structure_model:Discarding the 14x1 structure predicted for table 31 on page 37 because the predicted structure hit the 1024-step decode limit; its text is kept as a single cell.
+[51/76] 51 'Studying in Germany FAQ for Parents': 73 chunks in 24.2s
+[WARNING] 2026-11-13 21:11:17,615 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:26,087 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:26,438 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:28,334 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[52/76] 52 'Studying in Germany Practical Guide for International Students': 172 chunks in 25.5s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:46,401 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:47,841 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[53/76] 53 'The Germany Higher Education - An Overview': 69 chunks in 16.6s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:57,702 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:58,097 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:58,496 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:58,760 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:59,319 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:59,673 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:11:59,752 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:00,366 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:00,524 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:00,647 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:00,924 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:00,989 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:01,061 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:01,392 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:01,462 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:02,089 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:02,464 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:03,021 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[54/76] 54 'Studying with a Practical Orientation': 70 chunks in 13.4s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:09,436 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[55/76] 55 'Bachelor Degree in Germany': 24 chunks in 4.9s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:14,171 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[56/76] 56 'Master Degree in Germany': 23 chunks in 4.5s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:19,281 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[57/76] 57 'PhD in Germany': 23 chunks in 5.3s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:25,389 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:26,255 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[58/76] 58 'DAAD Pre-Departure Guidelines and Tips 2022': 24 chunks in 11.0s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:35,256 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[59/76] 59 'PhD in Germany': 23 chunks in 4.8s
+[60/76] 60 'Admission Requirements to a German University': 29 chunks in 6.9s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:48,199 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:12:48,873 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[61/76] 61 'Your Pocket Guide to Germany': 19 chunks in 12.6s
+[WARNING] 2026-11-13 21:13:04,031 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:13:10,595 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:13:11,005 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:13:12,744 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+
+
+---
+
+config.json: 100%
+ 727/727 [00:00<00:00, 59.2kB/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+tokenizer_config.json: 100%
+ 9.71k/9.71k [00:00<00:00, 785kB/s]
+vocab.json: 100%
+ 2.78M/2.78M [00:00<00:00, 41.8MB/s]
+merges.txt: 100%
+ 1.67M/1.67M [00:00<00:00, 36.9MB/s]
+tokenizer.json: reconstructing file: 100%
+ 11.4MB / 11.4MB, 1.11MB/s  
+tokenizer.json: downloading bytes: 
+ 3.40MB,  330kB/s  
+modules.json: 100%
+ 349/349 [00:00<00:00, 32.8kB/s]
+config_sentence_transformers.json: 100%
+ 215/215 [00:00<00:00, 23.2kB/s]
+README.md: 100%
+ 17.2k/17.2k [00:00<00:00, 1.50MB/s]
+model.safetensors: reconstructing file: 100%
+ 1.19GB / 1.19GB, 77.7MB/s  
+model.safetensors: downloading bytes: 
+ 1.04GB, 74.8MB/s  
+Loading weights: 100%
+ 310/310 [00:02<00:00, 155.42it/s]
+config.json: 100%
+ 313/313 [00:00<00:00, 15.8kB/s]
+Loading weights: 100%
+ 770/770 [00:00<00:00, 7731.12it/s]
+/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py:560: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/Convolution.cpp:1104.)
+  return F.conv2d(
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:37,185 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:39,705 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:40,164 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:41,106 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:42,578 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[WARNING] 2026-11-13 21:23:43,062 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.table_structure.table_structure_model:Discarding the 28x1 structure predicted for table 30 on page 37 because the predicted structure hit the 1024-step decode limit; its text is kept as a single cell.
+[63/76] 63 'Studying in Germany - Questions and Answers for Parents': 69 chunks in 46.9s
+[64/76] 64 'Checklist for people from non-EU countries interested in Studying': 8 chunks in 7.1s
+[65/76] 65 'Checklist for nationals from the EU Switzerland Lichtenstein Norway and Iceland interested in Studying': 10 chunks in 2.3s
+[66/76] 66 'Required German Language Skills Depending on the Type of Visa According to the Residence Act': 1 chunks in 4.9s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[67/76] 67 'At a Glance - Visa for Seeking a Place in University': 7 chunks in 2.2s
+[68/76] 68 'Your Path to the German Education System': 8 chunks in 3.6s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[69/76] 69 'UA-Checkliste-DoSV-Verfahren-EN': 16 chunks in 1.9s
+[70/76] 70 'UA-Checkliste-Standard-Verfahren-EN': 12 chunks in 2.0s
+[71/76] 71 'UA-Checkliste-VPD-Verfahren-EN': 13 chunks in 1.7s
+[WARNING] 2026-11-13 21:24:21,026 [RapidOCR] main.py:164: The text detection result is empty
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[72/76] 72 'Welcome_Guide_Tax_categories': 2 chunks in 2.1s
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+WARNING:docling.models.stages.ocr.rapid_ocr_model:RapidOCR returned empty result!
+[73/76] 73 'Guide to Working in Germany': 67 chunks in 22.7s
+[74/76] 74 'Information about the Taxation System in Germany': 5 chunks in 1.9s
+[75/76] 75 'Private Personal Liability Insurance': 8 chunks in 1.8s
+[76/76] 76 'Minijob kurzfristige Beschaeftigung oder Werkstudentenstelle': 16 chunks in 12.0s

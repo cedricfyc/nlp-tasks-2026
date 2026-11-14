@@ -3,7 +3,7 @@ Repository for the NLP tasks 2026 part of the Master of Artificial Intelligence 
 
 ## Assignment Selection
 
-The assignments RAG with citations and tool-using agent with a budget were chosen from the catalogue offered by the Prof. Dr. Ivan Yamshchikov teaching Natural Language Processing (NLP).
+The assignments RAG with citations and tool-using agent with a budget were chosen from the [catalogue](https://i-yam.github.io/nlp_milestones/) offered by the [Prof. Dr. Ivan Yamshchikov](https://github.com/i-yam) teaching Natural Language Processing (NLP).
 
 RAG with citations can be broken down as follows:
 - Point 1
