@@ -1,6 +1,6 @@
 # RAG with Citations
 
-The overall task consists in creating 
+The overall task consists in creating...
 
 ## Task Description
 
@@ -20,6 +20,7 @@ The overall task consists in creating
 - [Architecture Explained](https://chatgpt.com/share/6af25e24-7a1c-83ed-8d8f-a6b84c130f9a)
 - [Student Assistant Topic Explained](https://chatgpt.com/share/6aecf7b2-9b60-83ed-b447-074c26fce784)
 - [Claude Coding Prompt](https://claude.ai/share/3eff6ba1-cc04-4eed-8a1e-a5cb6fb0b149)
+- Consult [this Google Doc for ideas](https://docs.google.com/document/d/16--8Z7NYCgoXtqeZQsS3nFFvpoXB7jC_g4C89cRvQqo/edit?usp=sharing)
 
 ---
 
@@ -94,5 +95,8 @@ It could be implemented using one of the following:
 
 ### Software Requirements
 
+## Folder Contents
+
+- RAG Documents:
 
 ---
