@@ -231,7 +231,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S08",
+    "id": "S07",
     "type": "simple_factual",
     "domains": [
       "Starting studies"
@@ -242,7 +242,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S09",
+    "id": "S08",
     "type": "simple_factual",
     "domains": [
       "Starting studies"
@@ -253,7 +253,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S11",
+    "id": "S09",
     "type": "simple_factual",
     "domains": [
       "Starting studies"
@@ -264,7 +264,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S12",
+    "id": "S10",
     "type": "simple_factual",
     "domains": [
       "Starting studies"
@@ -275,7 +275,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S14",
+    "id": "S11",
     "type": "simple_factual",
     "domains": [
       "Starting studies"
@@ -286,7 +286,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S15",
+    "id": "S12",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -297,7 +297,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S16",
+    "id": "S13",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -308,7 +308,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S17",
+    "id": "S14",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -319,7 +319,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S18",
+    "id": "S15",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -330,7 +330,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S19",
+    "id": "S16",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -341,7 +341,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S21",
+    "id": "S17",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -352,7 +352,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S22",
+    "id": "S18",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -363,7 +363,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S23",
+    "id": "S19",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -374,7 +374,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S24",
+    "id": "S20",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -385,7 +385,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S26",
+    "id": "S21",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -396,7 +396,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S27",
+    "id": "S22",
     "type": "simple_factual",
     "domains": [
       "Working and Finances"
@@ -407,7 +407,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S30",
+    "id": "S23",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -418,7 +418,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S31",
+    "id": "S24",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -429,7 +429,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S32",
+    "id": "S25",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -440,7 +440,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S33",
+    "id": "S26",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -451,7 +451,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S34",
+    "id": "S27",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -462,7 +462,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S36",
+    "id": "S28",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -473,7 +473,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S37",
+    "id": "S29",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -484,7 +484,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S40",
+    "id": "S30",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -495,7 +495,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S42",
+    "id": "S31",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -506,7 +506,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S43",
+    "id": "S32",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -517,7 +517,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S44",
+    "id": "S33",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -528,7 +528,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S45",
+    "id": "S34",
     "type": "simple_factual",
     "domains": [
       "Rent and moving"
@@ -539,7 +539,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S46",
+    "id": "S35",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -550,7 +550,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S47",
+    "id": "S36",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -561,7 +561,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S48",
+    "id": "S37",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -572,7 +572,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S49",
+    "id": "S38",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -583,7 +583,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S50",
+    "id": "S39",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -594,7 +594,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S53",
+    "id": "S40",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -605,7 +605,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S55",
+    "id": "S41",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -616,7 +616,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S56",
+    "id": "S42",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -627,7 +627,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S57",
+    "id": "S43",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -638,7 +638,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S59",
+    "id": "S44",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -649,7 +649,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "S60",
+    "id": "S45",
     "type": "simple_factual",
     "domains": [
       "Healthcare"
@@ -660,7 +660,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M02",
+    "id": "M01",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -672,7 +672,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M04",
+    "id": "M02",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -684,7 +684,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M05",
+    "id": "M03",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -696,7 +696,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M06",
+    "id": "M04",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -708,7 +708,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M07",
+    "id": "M05",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -720,7 +720,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M09",
+    "id": "M06",
     "type": "multi_domain",
     "domains": [
       "Rent and moving",
@@ -732,7 +732,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M10",
+    "id": "M07",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -745,7 +745,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M12",
+    "id": "M08",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -757,7 +757,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M14",
+    "id": "M09",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -769,7 +769,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M16",
+    "id": "M10",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -781,7 +781,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M17",
+    "id": "M11",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -793,7 +793,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M19",
+    "id": "M12",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -806,7 +806,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M20",
+    "id": "M13",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -818,7 +818,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M21",
+    "id": "M14",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -830,7 +830,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M22",
+    "id": "M15",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -842,7 +842,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M23",
+    "id": "M16",
     "type": "multi_domain",
     "domains": [
       "Rent and moving",
@@ -854,7 +854,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M26",
+    "id": "M17",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -867,7 +867,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M27",
+    "id": "M18",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -879,7 +879,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M29",
+    "id": "M19",
     "type": "multi_domain",
     "domains": [
       "Working and Finances",
@@ -892,7 +892,7 @@
     "is_unanswerable": false
   },
   {
-    "id": "M30",
+    "id": "M20",
     "type": "multi_domain",
     "domains": [
       "Starting studies",
@@ -928,7 +928,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U06",
+    "id": "U03",
     "type": "unanswerable",
     "domains": [
       "Starting studies"
@@ -939,7 +939,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U07",
+    "id": "U04",
     "type": "unanswerable",
     "domains": [
       "Starting studies"
@@ -950,7 +950,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U08",
+    "id": "U05",
     "type": "unanswerable",
     "domains": [
       "Starting studies"
@@ -961,7 +961,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U09",
+    "id": "U06",
     "type": "unanswerable",
     "domains": [
       "Working and Finances"
@@ -972,7 +972,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U10",
+    "id": "U07",
     "type": "unanswerable",
     "domains": [
       "Working and Finances"
@@ -983,7 +983,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U12",
+    "id": "U08",
     "type": "unanswerable",
     "domains": [
       "Working and Finances"
@@ -994,7 +994,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U14",
+    "id": "U09",
     "type": "unanswerable",
     "domains": [
       "Working and Finances"
@@ -1005,7 +1005,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U15",
+    "id": "U10",
     "type": "unanswerable",
     "domains": [
       "Working and Finances"
@@ -1016,7 +1016,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U16",
+    "id": "U11",
     "type": "unanswerable",
     "domains": [
       "Rent and moving"
@@ -1027,7 +1027,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U18",
+    "id": "U12",
     "type": "unanswerable",
     "domains": [
       "Rent and moving"
@@ -1038,7 +1038,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U20",
+    "id": "U13",
     "type": "unanswerable",
     "domains": [
       "Rent and moving"
@@ -1049,7 +1049,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U22",
+    "id": "U14",
     "type": "unanswerable",
     "domains": [
       "Rent and moving"
@@ -1060,7 +1060,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U23",
+    "id": "U15",
     "type": "unanswerable",
     "domains": [
       "Rent and moving"
@@ -1071,7 +1071,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U24",
+    "id": "U16",
     "type": "unanswerable",
     "domains": [
       "Healthcare"
@@ -1082,7 +1082,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U26",
+    "id": "U17",
     "type": "unanswerable",
     "domains": [
       "Healthcare"
@@ -1093,7 +1093,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U28",
+    "id": "U18",
     "type": "unanswerable",
     "domains": [
       "Healthcare"
@@ -1104,7 +1104,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U29",
+    "id": "U19",
     "type": "unanswerable",
     "domains": [
       "Healthcare"
@@ -1115,7 +1115,7 @@
     "is_unanswerable": true
   },
   {
-    "id": "U30",
+    "id": "U20",
     "type": "unanswerable",
     "domains": [
       "Healthcare"
