@@ -1,0 +1,11 @@
+# torch is preinstalled in Colab; locally install the build for your CUDA version first.
+transformers
+accelerate
+sentence-transformers>=5.0
+rank_bm25
+pandas
+numpy
+scipy
+flask
+huggingface_hub
+docling            # only needed for build_database.py

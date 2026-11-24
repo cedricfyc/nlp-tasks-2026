@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "L01",
+    "type": "long_context",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I completed secondary school outside Germany, have a school-leaving certificate and transcripts, and want to start an English-taught bachelor's programme. I have not studied at university before. What should I check before applying?",
+    "ground_truth": "Check whether your school-leaving qualification gives direct university entrance in Germany or whether additional preparation (such as Studienkolleg and an assessment examination) is required. Then check the specific programme's subject prerequisites, English-language proof, deadlines, application route (university or uni-assist), document format/translation requirements, and any fees. The exact recognition outcome cannot be determined without the country, certificate and programme.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L02",
+    "type": "long_context",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have a bachelor's degree from abroad and want to study a master's in Germany. My degree title sounds similar to the German subject, but the curriculum is not identical. Can I assume I meet the admission requirements?",
+    "ground_truth": "No. A similar degree title does not establish eligibility. The university normally assesses the degree's recognition, subject content, credits, grade and any required modules or work experience against the master's admission rules. Check the programme-specific criteria and submit transcripts and module descriptions if requested.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L03",
+    "type": "long_context",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I want to study in German, but I currently have B1 German. The programme website mentions C1, while a general university page says B2 may be accepted in some cases. Which requirement should I follow?",
+    "ground_truth": "Follow the binding admission requirements for the specific programme and intake. A general university page does not override a programme-specific C1 requirement. Ask the admissions office whether an alternative certificate, conditional admission or preparatory language course is accepted.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L04",
+    "type": "long_context",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I am applying to three universities. One uses uni-assist, one accepts applications through its own portal, and the third has not clearly explained its process. Can I submit one application and assume all three receive it?",
+    "ground_truth": "No. Application routes are institution- and programme-specific. Submit a separate application through each required route, observe each deadline and fee, and verify whether uni-assist forwards the application or whether a separate university portal step is also required.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L05",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am a non-EU student with a student residence permit. I have a part-time job offer during the semester and may take extra shifts during the semester break. What should I verify before accepting?",
+    "ground_truth": "Check the work authorization and applicable annual working-day limits printed in or associated with your residence status, how the proposed shifts are counted, and whether any special rules apply to the job. Confirm the current rules with the immigration authority or international office before exceeding permitted limits. Also check that work will not undermine study progress.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L06",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I have been admitted but have not yet opened a blocked account. My visa appointment is soon, and a relative may provide financial support instead. What should I prepare?",
+    "ground_truth": "Check the current financial-proof amount and accepted evidence for your visa category and appointment. A blocked account is one possible method; a scholarship or formal declaration of commitment may be accepted if it meets the authority's requirements. Do not assume an informal family promise is sufficient; follow the embassy or consulate checklist.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L07",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I received a Werkstudent offer for 20 hours per week, but my employer also wants me to work additional hours during exam-free weeks. I am an international student. What issues should I consider?",
+    "ground_truth": "Check immigration work limits and the student-employee social-insurance rules separately. The commonly discussed 20-hour principle relates to social-insurance student status and is not itself a complete immigration permission. Consider lecture periods, semester breaks, total annual work and the exact residence conditions; confirm with the employer's payroll team and the relevant authority.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L08",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I have a Minijob and a paid internship at the same time. I want to know whether the earnings are combined and whether I need to tell anyone. What should I do?",
+    "ground_truth": "Do not assess each job in isolation. Tell both employers about the other employment, ask payroll how the jobs are classified together for tax and social insurance, and check whether the internship is mandatory or voluntary and how it is treated. If you are a non-EU student, also check the combined work against your residence-permit limits.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L09",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I found a WG room online. The person offering it asks me to transfer the deposit before a viewing, says the keys will be mailed later, and will not provide a written contract. Is it safe to proceed?",
+    "ground_truth": "These are significant warning signs. Do not transfer money before verifying the person's right to rent the room, viewing it in person or through a trusted live viewing, confirming the address and receiving a written agreement. Be wary of pressure, unverifiable identity and requests to pay before access or contract documentation.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L10",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "My rental advertisement lists €500 Kaltmiete and €180 Nebenkosten. It does not say whether electricity, internet or heating are included. How should I compare it with another apartment advertised at €720 Warmmiete?",
+    "ground_truth": "The figures are not directly comparable until you know what each includes. Ask whether heating is included in the Nebenkosten, whether electricity and internet are separate, and whether any other recurring charges apply. Request an itemized breakdown and compare the expected total monthly housing cost, not just the headline rent.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L11",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I am moving to Germany for the first time, have no SCHUFA record, and do not yet have a local employment contract. A landlord asks for proof of income, identification and a credit report. What alternatives can I offer?",
+    "ground_truth": "Explain your situation and ask which alternatives the landlord will accept. Possible supporting documents include admission/enrolment evidence, proof of funds or scholarship, a guarantor or formal financial undertaking where accepted, and identification. A landlord is not obliged to accept every alternative, and requirements vary; do not submit altered documents.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L12",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I have signed a lease, paid the deposit, and moved in. I noticed damage that was not mentioned in the handover record. What should I do now?",
+    "ground_truth": "Document the damage promptly with dated photographs and a written description, notify the landlord in writing, and keep a copy of the communication. Ask to have the condition recorded as a supplement to the handover record. Keep evidence in case responsibility for the damage is disputed later.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L13",
+    "type": "long_context",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "I am an EU student with an EHIC and have enrolled at a German university. The university asks for an insurance status notification. Does my EHIC automatically complete every administrative step?",
+    "ground_truth": "An EHIC may provide access to medically necessary state-provided healthcare during a temporary stay, subject to applicable rules, but it does not necessarily complete the university's administrative process automatically. Contact a German statutory insurer to clarify the required electronic insurance-status notification and provide your EHIC or other evidence as requested.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L14",
+    "type": "long_context",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "I am 29, enrolled full time, and currently have statutory student health insurance. I will turn 30 next semester and expect to remain enrolled. What should I ask my insurer?",
+    "ground_truth": "Ask when your student tariff eligibility ends, whether any statutory extension applies in your circumstances, what contribution and coverage options would follow, and what documents or deadlines apply. Do not assume the same student contribution continues after the age threshold; the insurer must assess your case.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "L15",
+    "type": "long_context",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "I have a recurring health problem, cannot find an English-speaking specialist, and am unsure whether my insurance requires a referral. It is not an emergency. What is a sensible first step?",
+    "ground_truth": "Contact your health insurer or a general practitioner (Hausarzt) and explain the symptoms, language need and insurance type. Ask whether a referral is required for the relevant specialist and request help finding an appropriate practice. If symptoms become urgent or life-threatening, use emergency services rather than waiting for a routine appointment.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S01",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is uni-assist?",
+    "ground_truth": "uni-assist is a service used by many German universities to process international applications and check submitted educational documents against formal admission requirements. Not every university or programme uses it.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S02",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is Studienkolleg?",
+    "ground_truth": "Studienkolleg is a preparatory institution for some applicants whose school-leaving qualification does not provide direct access to German higher education. It prepares students for a subject-specific assessment examination (Feststellungsprüfung).",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S03",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the Feststellungsprüfung?",
+    "ground_truth": "It is an assessment examination at the end of a Studienkolleg course. Passing it can provide the subject-specific higher-education entrance qualification required for eligible applicants.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S04",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is a semester contribution (Semesterbeitrag)?",
+    "ground_truth": "It is a mandatory payment charged by many universities each semester. It can cover student services, student representation and, depending on the institution, a public-transport ticket. It is distinct from tuition fees.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S05",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Are all public universities in Germany tuition-free?",
+    "ground_truth": "No. Many public universities do not charge general tuition for many consecutive-degree programmes, but semester contributions apply and exceptions or tuition charges can exist, including for certain students, programmes or federal states. Check the institution's current fee rules.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S06",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the difference between admission and enrolment?",
+    "ground_truth": "Admission is the university's decision to offer you a place. Enrolment (Immatrikulation) is the subsequent formal registration as a student after you meet the stated conditions and submit the required documents and payments.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S07",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What does a certified translation mean?",
+    "ground_truth": "It is a translation prepared and certified by an appropriately authorized translator or authority, as required by the receiving institution. Universities specify which languages, translators and certification forms they accept.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S08",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is an ECTS credit?",
+    "ground_truth": "ECTS (European Credit Transfer and Accumulation System) credits represent the workload associated with a course or study programme. They help describe and compare academic workload and progress.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S09",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is TestDaF?",
+    "ground_truth": "TestDaF is a standardized German-language examination used by many institutions to assess German proficiency for academic study. Accepted levels and score requirements depend on the programme.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S10",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the DSH examination?",
+    "ground_truth": "DSH (Deutsche Sprachprüfung für den Hochschulzugang) is a German-language examination for university admission. The required DSH level is set by the university or programme.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S11",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Where can I find the application deadline for a programme?",
+    "ground_truth": "Check the official programme and university admissions pages for the relevant intake and applicant category. Deadlines can differ for international applicants, degree levels and application routes.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S12",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a Sperrkonto?",
+    "ground_truth": "A Sperrkonto (blocked account) is a bank account arrangement in which funds are deposited in advance and released in limited amounts, commonly used as proof of financial resources for certain German visa applications.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S13",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a Verpflichtungserklärung?",
+    "ground_truth": "It is a formal declaration of commitment by a person in Germany to cover specified costs for a foreign visitor or resident, subject to legal requirements and an assessment by the responsible authority.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S14",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a Minijob?",
+    "ground_truth": "A Minijob is a form of marginal employment subject to a statutory earnings limit or short-term employment rules. The applicable earnings threshold can change, so check the current limit.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S15",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a Midijob?",
+    "ground_truth": "A Midijob is employment in the statutory transition range above the Minijob earnings limit and up to a defined upper threshold. Employee social-insurance contributions are generally reduced according to special rules within that range.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S16",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a Werkstudent?",
+    "ground_truth": "A Werkstudent is a university student employed in a role alongside their studies. Special social-insurance rules may apply if the employment meets the relevant conditions; the label alone does not determine eligibility.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S17",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a payslip (Gehaltsabrechnung)?",
+    "ground_truth": "It is a document from an employer showing gross pay, deductions and net pay for a pay period, along with relevant payroll information.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S18",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is gross salary?",
+    "ground_truth": "Gross salary (Bruttogehalt) is pay before deductions such as wage tax and applicable social-insurance contributions.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S19",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is net salary?",
+    "ground_truth": "Net salary (Nettogehalt) is the amount remaining after payroll deductions. The exact amount depends on earnings and individual tax and insurance circumstances.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S20",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is the difference between income tax and social-insurance contributions?",
+    "ground_truth": "Income tax is a tax on taxable income. Social-insurance contributions fund systems such as health, pension, unemployment and long-term care insurance; whether and how they apply depends on employment and personal status.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S21",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a tax class (Steuerklasse)?",
+    "ground_truth": "A tax class is a payroll-tax classification used to calculate wage-tax withholding. It does not by itself determine a person's final annual income-tax liability.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S22",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is a mandatory internship (Pflichtpraktikum)?",
+    "ground_truth": "It is an internship required by a study or examination regulation. Its legal and social-insurance treatment can differ from that of a voluntary internship.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S23",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is Kaltmiete?",
+    "ground_truth": "Kaltmiete is the base rent for the accommodation, excluding operating costs and usually excluding heating and other separately billed utilities.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S24",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is Warmmiete?",
+    "ground_truth": "Warmmiete is the rent including specified additional operating costs and often heating costs. It may still exclude items such as household electricity, internet or broadcasting contributions; check the contract.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S25",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is Nebenkosten?",
+    "ground_truth": "Nebenkosten are additional operating costs associated with a property, such as certain water, waste, cleaning or building-service costs. The lease and annual statement determine the applicable items.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S26",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a Kaution?",
+    "ground_truth": "A Kaution is a rental security deposit intended to secure certain landlord claims under the tenancy. For residential leases, the statutory maximum is generally three months' net cold rent, and tenants have a statutory right to pay it in three monthly instalments.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S27",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a Wohnungsgeberbestätigung?",
+    "ground_truth": "It is a confirmation from the housing provider that a person has moved into a residence. It is generally required for address registration (Anmeldung).",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S28",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a WG?",
+    "ground_truth": "A Wohngemeinschaft (WG) is a shared flat or house in which residents typically have private rooms and share facilities such as a kitchen or bathroom.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S29",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is SCHUFA?",
+    "ground_truth": "SCHUFA is a German credit-reporting organization. Landlords may request a credit report as part of tenant screening, but the exact documents requested vary.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S30",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a sublease (Untermiete)?",
+    "ground_truth": "A sublease is a rental arrangement in which a tenant rents all or part of their home to another person. The main tenant generally needs the landlord's permission where required by law.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S31",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a Wohnheim?",
+    "ground_truth": "A Wohnheim is a student residence or dormitory, often managed by a student services organization or another provider. Availability, eligibility, rent and application procedures vary.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S32",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What should I inspect during a rental viewing?",
+    "ground_truth": "Check the condition of rooms, windows, heating, water, appliances and shared areas; ask about total costs, included services, defects, contract terms and move-in date.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S33",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Why should I photograph a flat when moving in?",
+    "ground_truth": "Dated photographs can document the property's condition and existing defects at the start of the tenancy, helping prevent later disputes about responsibility for damage.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S34",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is a rent index (Mietspiegel)?",
+    "ground_truth": "A Mietspiegel is a local overview of comparative rents for residential accommodation in a municipality or area. Its relevance and legal effect depend on the applicable local and statutory framework.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S35",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is statutory health insurance (GKV)?",
+    "ground_truth": "Gesetzliche Krankenversicherung (GKV) is Germany's statutory health insurance system. Benefits and contributions are governed by law, with contributions generally calculated according to income and status.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S36",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is private health insurance (PKV)?",
+    "ground_truth": "Private Krankenversicherung (PKV) is health insurance provided by private insurers under individual contracts. Premiums and benefits depend on the tariff and the insured person's circumstances.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S37",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Is health insurance required for university enrolment in Germany?",
+    "ground_truth": "Students generally need recognized health-insurance coverage or an accepted exemption/status confirmation for enrolment. The precise process depends on the student's circumstances and insurer.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S38",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is an EHIC?",
+    "ground_truth": "The European Health Insurance Card provides access to medically necessary state-provided healthcare during a temporary stay in another participating European country, under that country's rules. It is not a substitute for every type of insurance or planned treatment coverage.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S39",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is a Hausarzt?",
+    "ground_truth": "A Hausarzt is a general practitioner or family doctor who provides primary care, treats common conditions and can coordinate further care or referrals when needed.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S40",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is the medical on-call service number 116117 used for?",
+    "ground_truth": "116117 is the medical on-call service for urgent medical problems that cannot wait until regular practice hours but are not life-threatening emergencies. Use 112 for life-threatening emergencies.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S41",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is a co-payment (Zuzahlung)?",
+    "ground_truth": "A Zuzahlung is an amount a patient must pay toward certain healthcare services or medicines. Applicable exemptions, limits and amounts depend on statutory rules and the individual's circumstances.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S42",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is a Krankenkasse?",
+    "ground_truth": "A Krankenkasse is a health insurance fund, usually referring to a provider in the statutory health insurance system.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S43",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is a medical emergency department (Notaufnahme)?",
+    "ground_truth": "A Notaufnahme is a hospital emergency department for serious or acute conditions requiring emergency assessment. It should not be used as a substitute for routine primary care.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S44",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What is a sick note (Arbeitsunfähigkeitsbescheinigung)?",
+    "ground_truth": "It is medical certification that a person is unable to work due to illness for a specified period. Employees should follow their employer's notification and documentation procedures.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "S45",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Does GKV cover every dental treatment or every pair of glasses?",
+    "ground_truth": "No. Statutory insurance covers specified benefits under legal rules, and coverage for dental work, glasses and other services may be limited or subject to conditions and co-payments.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M01",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Rent and moving"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have been admitted to a university in a city with a competitive housing market. Should I wait until enrolment is complete before applying for student housing?",
+    "ground_truth": "Check the student services housing provider's eligibility and application timeline. Many providers allow applications before enrolment is finalized, sometimes with proof of admission and later submission of enrolment evidence. Apply as early as permitted while also seeking temporary or private accommodation; do not assume a dormitory place is guaranteed.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M02",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I want to choose a university based on low fees, but I also need to work enough to cover rent. What should I compare?",
+    "ground_truth": "Compare the total cost rather than tuition alone: semester contribution, rent, utilities, transport, food and insurance. Then assess realistic job availability, expected wages, language requirements, work authorization and study workload in each city. Do not assume employment will reliably cover all expenses or be available immediately.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M03",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Healthcare"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I am choosing between an English-taught and German-taught degree. I have limited German and worry about finding healthcare while studying. How should I weigh this?",
+    "ground_truth": "Compare each programme's language admission and teaching requirements separately from daily-life language needs. Also check health-insurance eligibility and how to find practices offering care in a language you understand. An English-taught degree does not guarantee English-speaking healthcare, so plan language support without treating it as an admission criterion.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M04",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "A landlord wants proof of regular income, but I am a student whose only income is a Minijob. How can I strengthen my rental application?",
+    "ground_truth": "Provide truthful evidence such as payslips, an employment contract, proof of savings or scholarship, and a guarantor or formal commitment if the landlord accepts it. Explain that a Minijob may not cover the full rent. Compare total housing costs with reliable funds and never misrepresent income.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M05",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Healthcare"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am considering a second job to pay my health-insurance contributions. What should I check before accepting it?",
+    "ground_truth": "Check whether the combined work is permitted under your residence status, how multiple jobs affect tax and social-insurance classification, and whether your student insurance status or contribution changes. Ask both employers and your insurer/payroll office for a case-specific assessment before relying on the extra net income.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M06",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Healthcare"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I am moving into a WG and the main tenant says I cannot register my address. I need Anmeldung for university and insurance administration. What should I do?",
+    "ground_truth": "Ask for a valid rental arrangement and the required Wohnungsgeberbestätigung. A landlord or housing provider generally has duties concerning confirmation of move-in; do not use a false address. Contact the local registration office or a tenants' advice service if the main tenant refuses, and explain the registration deadline to your university and insurer.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M07",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have a place at a university, a limited savings balance and no apartment yet. I plan to arrive shortly before classes and find a job after arrival. What risks should I plan for?",
+    "ground_truth": "Plan for upfront costs and delays: temporary accommodation, deposit and first rent, registration, insurance, semester contribution and living expenses before the first salary. Do not rely on immediate employment to meet visa financial requirements or secure housing. Confirm visa funds, work permission, housing options and enrolment deadlines before travel.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M08",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I have a job offer in a different city, but moving would increase my rent and commuting costs. How do I compare whether it is worthwhile?",
+    "ground_truth": "Compare expected net pay, job hours and stability with increased rent, utilities, moving costs and commuting expenses. Check whether the job is compatible with your residence conditions and study schedule. Evaluate the monthly surplus after all costs rather than comparing gross wages alone.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M09",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Healthcare"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am an international student who has started a paid internship. My insurer says my contributions may change. Why can employment affect my insurance?",
+    "ground_truth": "Employment type, hours, remuneration and whether an internship is mandatory or voluntary can affect social-insurance treatment. Student status alone does not settle every case. Give the insurer and employer accurate study and employment details and request a written classification before estimating take-home pay.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M10",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "My programme has a compulsory internship, and I have also been offered a paid part-time job. How should I check whether I can do both?",
+    "ground_truth": "Check the programme rules for the compulsory internship, then assess both roles under immigration work authorization and social-insurance rules. A mandatory internship may be treated differently from ordinary employment. Give the total schedule and contract details to the university, immigration authority where relevant, and insurer/payroll office before agreeing.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M11",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Rent and moving"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have to choose between a university with a lower semester contribution but expensive housing and one with higher fees but cheaper accommodation. Which is financially better?",
+    "ground_truth": "Estimate the total cost over the same period: semester contributions and any tuition, rent, utilities, transport, food and insurance. Include moving and deposit costs, then compare realistic income and travel needs. The lower semester contribution alone does not establish the cheaper option.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M12",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances",
+      "Healthcare"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I am planning to take a semester off and work more hours. What should I check before making the change?",
+    "ground_truth": "Check the university's leave-of-absence rules and the effect on student status, then confirm immigration work authorization and insurance classification during the leave. A leave semester can change the conditions that applied while actively studying. Obtain confirmation from the university, insurer and immigration authority before increasing work.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M13",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "My employer offers a gross monthly salary, and the landlord asks whether I can afford the rent. How should I demonstrate affordability?",
+    "ground_truth": "Use a realistic estimate of net pay after applicable deductions, not gross salary. Provide genuine supporting documents such as the signed contract and payslips when available, and compare reliable net income with rent and other fixed costs. If income is not yet established, ask whether proof of savings, scholarship or a guarantor is accepted.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M14",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I want to move closer to my student job to reduce commuting time, but the new flat requires a large deposit. How should I decide?",
+    "ground_truth": "Compare the monthly savings in transport and time with the rent difference, utilities, moving expenses and deposit cash-flow requirement. Check the legal deposit limit and instalment right for a residential tenancy, and ensure the new rent remains affordable without relying on uncertain future shifts.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M15",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Healthcare"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am a student employee and my payslip shows health-insurance deductions even though I pay a student insurance contribution separately. What should I do?",
+    "ground_truth": "Ask payroll and your health insurer to explain the employment classification and each deduction. Depending on the job and circumstances, employment may trigger contributions or a change in insurance status. Do not assume the deductions are automatically incorrect; provide both parties with accurate hours, pay and enrolment details.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M16",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Healthcare"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I am choosing a room in a shared flat. One option is cheaper but far from doctors and public transport; the other is more expensive but central. What should I compare?",
+    "ground_truth": "Compare total monthly cost including transport, utilities and likely travel to university and healthcare, as well as access to suitable medical practices. Consider whether the cheaper location creates recurring transport costs or practical barriers. The best choice depends on your budget, mobility and healthcare needs.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M17",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Healthcare",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "My employer has offered more shifts, but I am already struggling to attend classes and pay rent. How can I evaluate the offer?",
+    "ground_truth": "Compare the additional net income with the impact on study progress, work authorization, insurance and social-insurance status. Recalculate the budget using dependable income and actual housing costs. Consider student financial counselling or support options before accepting hours that could jeopardize study or residence conditions.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M18",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have not yet enrolled, but I want to start working as soon as I arrive. Does my admission letter alone establish permission to work?",
+    "ground_truth": "No. Admission and permission to work are separate matters. Check the wording and start date of your visa or residence title and any work restrictions. Also verify whether employment before enrolment affects the intended student status; obtain confirmation from the competent authority.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M19",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving",
+      "Healthcare"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am comparing two job offers. One pays more but is temporary and offers fewer predictable hours; the other pays less but is stable. I need to prove funds for housing and maintain insurance. What factors matter?",
+    "ground_truth": "Compare dependable net income, contract duration, guaranteed hours and payment timing with rent and insurance obligations. Check how each job affects work authorization and social-insurance status. For rental affordability, do not treat uncertain or occasional shifts as guaranteed income.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "M20",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Working and Finances",
+      "Rent and moving",
+      "Healthcare"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I am changing universities and cities during the semester. What administrative areas should I coordinate so that I do not lose coverage or breach a deadline?",
+    "ground_truth": "Coordinate the new university's admission and enrolment requirements, withdrawal or transfer steps at the former institution, address registration and rental obligations, health-insurance status notification, and any immigration-authority update required by your residence status. Confirm dates with each responsible organization; one institution's confirmation does not automatically update all the others.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "U01",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the exact admission decision for my application to the University of Heidelberg?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U02",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Has the admissions office received every document I uploaded yesterday?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U03",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Will the specific admissions committee waive the missing module requirement in my case?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U04",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Which university programme did I shortlist in my previous conversation?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U05",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the current application portal password for my university account?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U06",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "How much money is currently available in my blocked account?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U07",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Has the immigration office approved my request to work 25 hours next week?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U08",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Has my employer already registered me with the tax office and social-insurance providers?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U09",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Will the Ausländerbehörde approve my individual freelance-work application?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U10",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is the name and contact number of the recruiter who called me this morning?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U11",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is the exact address of the apartment I am going to rent?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U12",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "How much electricity did I use in my apartment last month?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U13",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What defects did I record in my apartment's handover protocol?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U14",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is the landlord's bank account number for paying the deposit?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U15",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Does my individual rental contract allow me to keep a dog?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U16",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What diagnosis did my doctor enter in my medical record last week?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U17",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Has my health insurer approved the specific treatment requested by my doctor?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U18",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Which general practitioner is currently accepting new patients at my exact address?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U19",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "What date and time is my next specialist appointment?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "U20",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Does my private insurance policy reimburse the invoice I received yesterday?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  }
+]
