@@ -4,7 +4,11 @@
     python api.py --splade --reranker    # with SPLADE and the re-ranker
 
     GET  /       chat page (ui/index.html)
-    POST /ask    {"question": "..."} -> {"answer", "retrieved", "seconds"}
+    POST /ask    {"question": "..."} -> {"answer", "citations", "refused", "retrieved",
+                                         "citation_check", "seconds"}
+
+    "answer" contains [n] markers; citations[n-1] is the source of [n]
+    (chunk_id, doc_id, source_title, filename, section, pages, url, snippet).
 """
 
 import argparse
@@ -12,8 +16,9 @@ import threading
 import time
 from pathlib import Path
 
-import pandas as pd
 from flask import Flask, jsonify, request, send_from_directory
+
+from citations import format_pages
 
 UI_DIR = Path(__file__).resolve().parent / "ui"
 
@@ -24,17 +29,11 @@ def context_to_sources(context_df) -> list[dict]:
         return []
     sources = []
     for row in context_df.itertuples():
-        if pd.isna(row.page_start):
-            pages = ""
-        elif row.page_start == row.page_end:
-            pages = f"{int(row.page_start)}"
-        else:
-            pages = f"{int(row.page_start)}-{int(row.page_end)}"
         sources.append({
             "chunk_id": int(row.chunk_id),
             "filename": row.filename,
             "section": row.section if isinstance(row.section, str) else None,
-            "pages": pages,
+            "pages": format_pages(row.page_start, row.page_end),
             "url": row.download_url or row.source_url,
         })
     return sources
@@ -42,8 +41,6 @@ def context_to_sources(context_df) -> list[dict]:
 
 def create_app(pipeline) -> Flask:
     """Flask app: GET / serves the chat page, POST /ask answers a question."""
-    from generation import clean_answer
-
     app = Flask(__name__, static_folder=str(UI_DIR), static_url_path="/ui")
     lock = threading.Lock()   # one GPU: answer one question at a time
 
@@ -59,10 +56,18 @@ def create_app(pipeline) -> Flask:
 
         started = time.time()
         with lock:
-            _, answer = pipeline.conduct_rag(question)
+            _, result = pipeline.answer_question(question)
             context_df = pipeline.last_context_df
-        return jsonify(answer=clean_answer(answer),
+        return jsonify(answer=result.answer,
+                       citations=result.citations,
+                       refused=result.refused,
                        retrieved=context_to_sources(context_df),
+                       citation_check={
+                           "refusal_reason": result.refusal_reason,
+                           "invalid_ids": result.invalid_ids,
+                           "dropped_sentences": result.dropped_sentences,
+                           "retries": result.retries,
+                       },
                        seconds=round(time.time() - started, 1))
 
     return app

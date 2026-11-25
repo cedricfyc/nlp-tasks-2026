@@ -27,4 +27,4 @@ if __name__ == "__main__":
     rag = RAGPipeline(use_splade=args.splade, use_reranker=args.reranker)
     for question in args.questions:
         print("\n" + "=" * 80 + f"\nQ: {question}")
-        rag.conduct_rag(question)
+        rag.answer_question(question)   # prints the cited answer and its sources

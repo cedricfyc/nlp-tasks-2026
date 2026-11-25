@@ -40,3 +40,8 @@ RERANK_TOP_N = 6              # chunks kept after re-ranking
 # ---------------- Generation ----------------
 MODEL_ID = "Qwen/Qwen3.5-4B"
 MODEL_PATH = os.environ.get("RAG_MODEL_PATH", "/content/drive/MyDrive/models/Qwen3.5-4B")
+
+# ---------------- Citations ----------------
+CITATION_MAX_RETRIES = 1      # re-generations when citations are missing or point to no source
+CITATION_STRICT = True        # remove sentences that are still uncited after the retries
+CITATION_SNIPPET_CHARS = 300  # length of the source excerpt returned with each citation
