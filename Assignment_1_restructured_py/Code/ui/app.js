@@ -1,4 +1,4 @@
-// Sends the question to POST /ask and shows the answer with the retrieved sources.
+// Sends the question to POST /ask and shows the answer with its [n] citations and sources.
 
 const chat = document.getElementById("chat");
 const form = document.getElementById("form");
@@ -19,20 +19,51 @@ function addMessage(html, cls = "") {
   return div;
 }
 
+let answerCount = 0;
+
+function sourceLink(s) {
+  const name = escapeHtml(s.source_title || s.filename);
+  return s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${name}</a>` : name;
+}
+
 function renderSource(s) {
-  const name = s.url
-    ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.filename)}</a>`
-    : escapeHtml(s.filename);
   const section = s.section ? ` - ${escapeHtml(s.section)}` : "";
   const pages = s.pages ? ` (p. ${escapeHtml(s.pages)})` : "";
-  return `<li>${name}${section}${pages}</li>`;
+  return `<li>${sourceLink(s)}${section}${pages}</li>`;
+}
+
+function renderCitation(c, prefix) {
+  const section = c.section ? ` - ${escapeHtml(c.section)}` : "";
+  const pages = c.pages ? ` (p. ${escapeHtml(c.pages)})` : "";
+  return `<li id="${prefix}-${c.id}" value="${c.id}">${sourceLink(c)}${section}${pages}`
+       + `<blockquote>${escapeHtml(c.snippet)}</blockquote></li>`;
+}
+
+// Turn [n] in the (escaped) answer into a link to source n.
+function linkCitations(answerHtml, citations, prefix) {
+  const ids = new Set(citations.map(c => c.id));
+  return answerHtml.replace(/\[(\d+)\]/g, (match, n) => ids.has(Number(n))
+    ? `<a class="cite" href="#${prefix}-${n}">[${n}]</a>` : match);
 }
 
 function renderAnswer(data) {
-  let html = `<div class="answer">${escapeHtml(data.answer)}</div>`;
+  const prefix = `a${++answerCount}`;
+  const citations = data.citations || [];
+  const cls = data.refused ? "answer refused" : "answer";
+  let html = `<div class="${cls}">${linkCitations(escapeHtml(data.answer), citations, prefix)}</div>`;
+
+  if (citations.length) {
+    html += `<div class="sources"><strong>Sources</strong><ol>`
+          + citations.map(c => renderCitation(c, prefix)).join("") + `</ol></div>`;
+  }
+  const check = data.citation_check || {};
+  const dropped = (check.dropped_sentences || []).length;
+  if (dropped) {
+    html += `<div class="meta">${dropped} statement(s) without a source were removed.</div>`;
+  }
   if (data.retrieved.length) {
-    html += `<div class="sources"><strong>Retrieved context</strong><ol>`
-          + data.retrieved.map(renderSource).join("") + `</ol></div>`;
+    html += `<details class="sources"><summary>All retrieved context (${data.retrieved.length})</summary><ol>`
+          + data.retrieved.map(renderSource).join("") + `</ol></details>`;
   }
   return html + `<div class="meta">${data.seconds} s</div>`;
 }
