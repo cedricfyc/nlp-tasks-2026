@@ -39,3 +39,14 @@ button {
   background: #2f5d8a; color: #fff; cursor: pointer;
 }
 button:disabled { opacity: .5; cursor: default; }
+
+/* Citations */
+.answer.refused { color: #6b6b66; font-style: italic; }
+a.cite { color: #2f5d8a; text-decoration: none; font-size: 12px; vertical-align: super; }
+a.cite:hover { text-decoration: underline; }
+.sources li:target { background: #eef3f8; border-radius: 4px; }
+.sources blockquote {
+  margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid #e3e2dc;
+  color: #6b6b66; font-size: 13px;
+}
+details.sources summary { cursor: pointer; color: #6b6b66; }
