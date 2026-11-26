@@ -1,1 +1,0 @@
-The different parts of the SQLite database are here. Google Colab kept crashing, meaning that the database had to be constructed in 3 parts. The final database is complete and can be found in the python script materials.
