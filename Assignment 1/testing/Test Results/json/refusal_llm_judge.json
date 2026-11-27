@@ -1,0 +1,27 @@
+{
+  "method": "llm_judge",
+  "feature_names": [
+    "p_yes"
+  ],
+  "mean": [
+    0.5686720768874511
+  ],
+  "std": [
+    0.3680566000787899
+  ],
+  "coef": [
+    -3.274900224426026
+  ],
+  "intercept": -2.733370622669971,
+  "threshold": 0.8066794411920796,
+  "metrics": {
+    "threshold": 0.8066794411920796,
+    "balanced_accuracy": 0.96875,
+    "refusal_recall": 0.95,
+    "false_refusal_rate": 0.0125,
+    "max_false_refusal": 0.1,
+    "cv_roc_auc": 0.99125,
+    "n_questions": 100,
+    "n_unanswerable": 20
+  }
+}

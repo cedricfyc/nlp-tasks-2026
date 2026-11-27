@@ -1,0 +1,101 @@
+id,type,is_unanswerable,question,p_yes,p_unanswerable_cv,refused_cv
+L01,long_context,0,"I completed secondary school outside Germany, have a school-leaving certificate and transcripts, and want to start an English-taught bachelor's programme. I have not studied at university before. What should I check before applying?",0.9149009585380554,0.004388987206604976,False
+L02,long_context,0,"I have a bachelor's degree from abroad and want to study a master's in Germany. My degree title sounds similar to the German subject, but the curriculum is not identical. Can I assume I meet the admission requirements?",0.11920291930437088,0.7879517091788614,False
+L03,long_context,0,"I want to study in German, but I currently have B1 German. The programme website mentions C1, while a general university page says B2 may be accepted in some cases. Which requirement should I follow?",0.4687906503677368,0.1523499599191022,False
+L04,long_context,0,"I am applying to three universities. One uses uni-assist, one accepts applications through its own portal, and the third has not clearly explained its process. Can I submit one application and assume all three receive it?",0.24508501589298248,0.5690351664900986,False
+L05,long_context,0,I am a non-EU student with a student residence permit. I have a part-time job offer during the semester and may take extra shifts during the semester break. What should I verify before accepting?,0.6791787147521973,0.03370333834877233,False
+L06,long_context,0,"I have been admitted but have not yet opened a blocked account. My visa appointment is soon, and a relative may provide financial support instead. What should I prepare?",0.531209409236908,0.12776774854195586,False
+L07,long_context,0,"I received a Werkstudent offer for 20 hours per week, but my employer also wants me to work additional hours during exam-free weeks. I am an international student. What issues should I consider?",0.7310585379600525,0.03057245631026944,False
+L08,long_context,0,I have a Minijob and a paid internship at the same time. I want to know whether the earnings are combined and whether I need to tell anyone. What should I do?,0.18242551386356354,0.6812300164387995,False
+L09,long_context,0,"I found a WG room online. The person offering it asks me to transfer the deposit before a viewing, says the keys will be mailed later, and will not provide a written contract. Is it safe to proceed?",0.29421496391296387,0.42789650958836417,False
+L10,long_context,0,"My rental advertisement lists €500 Kaltmiete and €180 Nebenkosten. It does not say whether electricity, internet or heating are included. How should I compare it with another apartment advertised at €720 Warmmiete?",0.531209409236908,0.12776774854195586,False
+L11,long_context,0,"I am moving to Germany for the first time, have no SCHUFA record, and do not yet have a local employment contract. A landlord asks for proof of income, identification and a credit report. What alternatives can I offer?",0.9324532747268677,0.004315716710510947,False
+L12,long_context,0,"I have signed a lease, paid the deposit, and moved in. I noticed damage that was not mentioned in the handover record. What should I do now?",0.2018132209777832,0.6162910465349072,False
+L13,long_context,0,I am an EU student with an EHIC and have enrolled at a German university. The university asks for an insurance status notification. Does my EHIC automatically complete every administrative step?,0.531209409236908,0.09792716118228768,False
+L14,long_context,0,"I am 29, enrolled full time, and currently have statutory student health insurance. I will turn 30 next semester and expect to remain enrolled. What should I ask my insurer?",0.4073334336280823,0.27509946221405596,False
+L15,long_context,0,"I have a recurring health problem, cannot find an English-speaking specialist, and am unsure whether my insurance requires a referral. It is not an emergency. What is a sensible first step?",0.3775406777858734,0.272962745960187,False
+S01,simple_factual,0,What is uni-assist?,0.977022647857666,0.0029940757269309778,False
+S02,simple_factual,0,What is Studienkolleg?,0.9964063763618469,0.0021626891195857304,False
+S03,simple_factual,0,What is the Feststellungsprüfung?,0.9914224743843079,0.0019373543078699085,False
+S04,simple_factual,0,What is a semester contribution (Semesterbeitrag)?,0.9859364032745361,0.0023613621163182893,False
+S05,simple_factual,0,Are all public universities in Germany tuition-free?,0.8933094143867493,0.004521327220555568,False
+S06,simple_factual,0,What is the difference between admission and enrolment?,0.8175744414329529,0.011037786870167614,False
+S07,simple_factual,0,What does a certified translation mean?,0.7549149990081787,0.01835305351806782,False
+S08,simple_factual,0,What is an ECTS credit?,0.9740425944328308,0.003068218105737524,False
+S09,simple_factual,0,What is TestDaF?,0.9796676635742188,0.004646087081401562,False
+S10,simple_factual,0,What is the DSH examination?,0.9796676635742188,0.002573384359303169,False
+S11,simple_factual,0,Where can I find the application deadline for a programme?,0.4687906503677368,0.1523499599191022,False
+S12,simple_factual,0,What is a Sperrkonto?,0.9890130758285522,0.002382417069205599,False
+S13,simple_factual,0,What is a Verpflichtungserklärung?,0.9626730680465698,0.002960621860636894,False
+S14,simple_factual,0,What is a Minijob?,0.9859364032745361,0.0023613621163182893,False
+S15,simple_factual,0,What is a Midijob?,0.8354835510253906,0.008430937116644582,False
+S16,simple_factual,0,What is a Werkstudent?,0.9324532747268677,0.006664666850625325,False
+S17,simple_factual,0,What is a payslip (Gehaltsabrechnung)?,0.8933094143867493,0.005133255131171332,False
+S18,simple_factual,0,What is gross salary?,0.6513549089431763,0.04201556258598168,False
+S19,simple_factual,0,What is net salary?,0.8354835510253906,0.008430937116644582,False
+S20,simple_factual,0,What is the difference between income tax and social-insurance contributions?,0.8933094143867493,0.004521327220555568,False
+S21,simple_factual,0,What is a tax class (Steuerklasse)?,0.9465966820716858,0.0032847257601145634,False
+S22,simple_factual,0,What is a mandatory internship (Pflichtpraktikum)?,0.8933094143867493,0.005242658563312975,False
+S23,simple_factual,0,What is Kaltmiete?,0.9046505093574524,0.00409991770351741,False
+S24,simple_factual,0,What is Warmmiete?,0.9399133324623108,0.003474050295612288,False
+S25,simple_factual,0,What is Nebenkosten?,0.9241418242454529,0.0034650492290437297,False
+S26,simple_factual,0,What is a Kaution?,0.9796676635742188,0.0029297666952061516,False
+S27,simple_factual,0,What is a Wohnungsgeberbestätigung?,0.8807970285415649,0.005810982864963785,False
+S28,simple_factual,0,What is a WG?,0.977022647857666,0.0025447881434636707,False
+S29,simple_factual,0,What is SCHUFA?,0.9933071732521057,0.0026193743119456345,False
+S30,simple_factual,0,What is a sublease (Untermiete)?,0.7310585379600525,0.03057245631026944,False
+S31,simple_factual,0,What is a Wohnheim?,0.7057850360870361,0.024382611639089783,False
+S32,simple_factual,0,What should I inspect during a rental viewing?,0.531209409236908,0.09529189434053251,False
+S33,simple_factual,0,Why should I photograph a flat when moving in?,0.0534033328294754,0.8679239124470323,True
+S34,simple_factual,0,What is a rent index (Mietspiegel)?,0.9626730680465698,0.002483992284612132,False
+S35,simple_factual,0,What is statutory health insurance (GKV)?,0.9933071732521057,0.0022994761439316886,False
+S36,simple_factual,0,What is private health insurance (PKV)?,0.957912266254425,0.0025883255654564016,False
+S37,simple_factual,0,Is health insurance required for university enrolment in Germany?,0.9890130758285522,0.0027133822927520746,False
+S38,simple_factual,0,What is an EHIC?,0.9626730680465698,0.002483992284612132,False
+S39,simple_factual,0,What is a Hausarzt?,0.9626730680465698,0.0028703843040278018,False
+S40,simple_factual,0,What is the medical on-call service number 116117 used for?,0.9890130758285522,0.004325516037328027,False
+S41,simple_factual,0,What is a co-payment (Zuzahlung)?,0.9796676635742188,0.0024889240875772788,False
+S42,simple_factual,0,What is a Krankenkasse?,0.8354835510253906,0.008323023633903984,False
+S43,simple_factual,0,What is a medical emergency department (Notaufnahme)?,0.7310585379600525,0.01976925136140279,False
+S44,simple_factual,0,What is a sick note (Arbeitsunfähigkeitsbescheinigung)?,0.9525741338729858,0.002710517255840234,False
+S45,simple_factual,0,Does GKV cover every dental treatment or every pair of glasses?,0.3208213150501251,0.3750751360428089,False
+M01,multi_domain,0,I have been admitted to a university in a city with a competitive housing market. Should I wait until enrolment is complete before applying for student housing?,0.6791787147521973,0.028218880136176898,False
+M02,multi_domain,0,"I want to choose a university based on low fees, but I also need to work enough to cover rent. What should I compare?",0.7549149990081787,0.02558243106155913,False
+M03,multi_domain,0,I am choosing between an English-taught and German-taught degree. I have limited German and worry about finding healthcare while studying. How should I weigh this?,0.2018132209777832,0.6343175668143696,False
+M04,multi_domain,0,"A landlord wants proof of regular income, but I am a student whose only income is a Minijob. How can I strengthen my rental application?",0.9399133324623108,0.003474050295612288,False
+M05,multi_domain,0,I am considering a second job to pay my health-insurance contributions. What should I check before accepting it?,0.851952850818634,0.006457111717922235,False
+M06,multi_domain,0,I am moving into a WG and the main tenant says I cannot register my address. I need Anmeldung for university and insurance administration. What should I do?,0.6791787147521973,0.03370333834877233,False
+M07,multi_domain,0,"I have a place at a university, a limited savings balance and no apartment yet. I plan to arrive shortly before classes and find a job after arrival. What risks should I plan for?",0.16451644897460938,0.7071349989103621,False
+M08,multi_domain,0,"I have a job offer in a different city, but moving would increase my rent and commuting costs. How do I compare whether it is worthwhile?",0.29421496391296387,0.4535491497612839,False
+M09,multi_domain,0,I am an international student who has started a paid internship. My insurer says my contributions may change. Why can employment affect my insurance?,0.622459352016449,0.06773192684665877,False
+M10,multi_domain,0,"My programme has a compulsory internship, and I have also been offered a paid part-time job. How should I check whether I can do both?",0.6513549089431763,0.03752808246400266,False
+M11,multi_domain,0,I have to choose between a university with a lower semester contribution but expensive housing and one with higher fees but cheaper accommodation. Which is financially better?,0.14804719388484955,0.7316726390009186,False
+M12,multi_domain,0,I am planning to take a semester off and work more hours. What should I check before making the change?,0.531209409236908,0.12776774854195586,False
+M13,multi_domain,0,"My employer offers a gross monthly salary, and the landlord asks whether I can afford the rent. How should I demonstrate affordability?",0.8175744414329529,0.011037786870167614,False
+M14,multi_domain,0,"I want to move closer to my student job to reduce commuting time, but the new flat requires a large deposit. How should I decide?",0.14804719388484955,0.74320793360743,False
+M15,multi_domain,0,I am a student employee and my payslip shows health-insurance deductions even though I pay a student insurance contribution separately. What should I do?,0.29421496391296387,0.44359012187241137,False
+M16,multi_domain,0,I am choosing a room in a shared flat. One option is cheaper but far from doctors and public transport; the other is more expensive but central. What should I compare?,0.5,0.15696189091032903,False
+M17,multi_domain,0,"My employer has offered more shifts, but I am already struggling to attend classes and pay rent. How can I evaluate the offer?",0.531209409236908,0.12776774854195586,False
+M18,multi_domain,0,"I have not yet enrolled, but I want to start working as soon as I arrive. Does my admission letter alone establish permission to work?",0.3208213150501251,0.42455820847541553,False
+M19,multi_domain,0,I am comparing two job offers. One pays more but is temporary and offers fewer predictable hours; the other pays less but is stable. I need to prove funds for housing and maintain insurance. What factors matter?,0.622459352016449,0.05270576951234225,False
+M20,multi_domain,0,I am changing universities and cities during the semester. What administrative areas should I coordinate so that I do not lose coverage or breach a deadline?,0.2018132209777832,0.6397854911005314,False
+U01,unanswerable,1,What is the exact admission decision for my application to the University of Heidelberg?,0.042087726294994354,0.8692765334218325,True
+U02,unanswerable,1,Has the admissions office received every document I uploaded yesterday?,0.04742587357759476,0.8577652014101941,True
+U03,unanswerable,1,Will the specific admissions committee waive the missing module requirement in my case?,0.022977370768785477,0.8953266028601337,True
+U04,unanswerable,1,Which university programme did I shortlist in my previous conversation?,0.04742587357759476,0.8636043739564276,True
+U05,unanswerable,1,What is the current application portal password for my university account?,0.020332353189587593,0.8878160819641641,True
+U06,unanswerable,1,How much money is currently available in my blocked account?,0.037326883524656296,0.8737610912702378,True
+U07,unanswerable,1,Has the immigration office approved my request to work 25 hours next week?,0.0534033328294754,0.8580731270740057,True
+U08,unanswerable,1,Has my employer already registered me with the tax office and social-insurance providers?,0.22270014882087708,0.5747052852906303,False
+U09,unanswerable,1,Will the Ausländerbehörde approve my individual freelance-work application?,0.04742587357759476,0.8737484295538526,True
+U10,unanswerable,1,What is the name and contact number of the recruiter who called me this morning?,0.004070138093084097,0.9097150210617204,True
+U11,unanswerable,1,What is the exact address of the apartment I am going to rent?,0.009708477184176445,0.8962369433067826,True
+U12,unanswerable,1,How much electricity did I use in my apartment last month?,0.020332353189587593,0.8813267597584346,True
+U13,unanswerable,1,What defects did I record in my apartment's handover protocol?,0.022977370768785477,0.875775845653207,True
+U14,unanswerable,1,What is the landlord's bank account number for paying the deposit?,0.007577240467071533,0.8978574564937415,True
+U15,unanswerable,1,Does my individual rental contract allow me to keep a dog?,0.09534946084022522,0.8066794411920796,True
+U16,unanswerable,1,What diagnosis did my doctor enter in my medical record last week?,0.03308597952127457,0.8706871248279321,True
+U17,unanswerable,1,Has my health insurer approved the specific treatment requested by my doctor?,0.01798621006309986,0.8801978885795623,True
+U18,unanswerable,1,Which general practitioner is currently accepting new patients at my exact address?,0.007577240467071533,0.8988870012932131,True
+U19,unanswerable,1,What date and time is my next specialist appointment?,0.014063626527786255,0.8835771643341734,True
+U20,unanswerable,1,Does my private insurance policy reimburse the invoice I received yesterday?,0.09534946084022522,0.8204346052385112,True

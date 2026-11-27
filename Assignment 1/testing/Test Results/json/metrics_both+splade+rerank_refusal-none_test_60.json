@@ -1,0 +1,29 @@
+{
+  "setting": "both+splade+rerank_refusal-none_test_60",
+  "n_questions": 60,
+  "refusal_rate": {
+    "count": 17,
+    "total": 20,
+    "rate": 0.85
+  },
+  "false_refusal_rate": {
+    "count": 4,
+    "total": 40,
+    "rate": 0.1
+  },
+  "citation_coverage": {
+    "count": 36,
+    "total": 36,
+    "rate": 1.0
+  },
+  "mean_citations_per_answer": 2.94,
+  "refused_by_type": {
+    "long_context": 0.1,
+    "multi_domain": 0.2,
+    "simple_factual": 0.0,
+    "unanswerable": 0.85
+  },
+  "refusal_reasons": {
+    "model": 21
+  }
+}

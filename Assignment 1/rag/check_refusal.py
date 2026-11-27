@@ -85,18 +85,17 @@ print("\n== 4. Self-refusal ==")
 ok("detects refusal", R.is_self_refusal("I don't have enough information to answer that."))
 ok("ignores normal answer", not R.is_self_refusal("The fee is 58 euros per semester [1]."))
 
-# ---------- Refusal pipeline: refusal happens before generation ----------
+# ---------- Refusal in the pipeline: refusal happens before generation ----------
 print("\n== Refusal pipeline ==")
 import pipeline as P
-import refusal_pipeline as RP
 from data import fetch_chunk_citations
 
 calls = []                                       # every real retrieval is recorded here
 P.RAGPipeline.retrieve = lambda self, q: calls.append(q) or fetch_chunk_citations([1, 2])
 P.generate = lambda **kwargs: ("", "Students need a residence permit to study in Germany [1].")
 
-rag = RP.RefusalRAGPipeline.__new__(RP.RefusalRAGPipeline)   # no models loaded
-rag.verbose, rag._cached, rag.tokenizer, rag.model = False, None, None, None
+rag = P.RAGPipeline.__new__(P.RAGPipeline)       # no models loaded
+rag.verbose, rag.tokenizer, rag.model = False, None, None
 rag.citation_retries, rag.strict_citations = 0, True
 
 rag.refusal = types.SimpleNamespace(check=lambda q, ctx: R.RefusalDecision(True, "bm25", 0.9, 0.5))
@@ -108,5 +107,9 @@ calls.clear()
 _, result = rag.answer_question("anything")
 ok("answers when not refused", not result.refused, f"-> {result.answer[:60]}")
 ok("retrieval runs only once", len(calls) == 1, f"(calls={len(calls)})")
+
+rag.refusal = None                               # refusal_method="none": prompt refusal only
+_, result = rag.answer_question("anything")
+ok("no refusal check when method is none", not result.refused and rag.last_refusal is None)
 
 print(f"\n{passed} checks passed")

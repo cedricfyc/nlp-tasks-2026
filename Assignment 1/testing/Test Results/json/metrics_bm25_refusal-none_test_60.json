@@ -1,0 +1,29 @@
+{
+  "setting": "bm25_refusal-none_test_60",
+  "n_questions": 60,
+  "refusal_rate": {
+    "count": 16,
+    "total": 20,
+    "rate": 0.8
+  },
+  "false_refusal_rate": {
+    "count": 19,
+    "total": 40,
+    "rate": 0.475
+  },
+  "citation_coverage": {
+    "count": 21,
+    "total": 21,
+    "rate": 1.0
+  },
+  "mean_citations_per_answer": 1.86,
+  "refused_by_type": {
+    "long_context": 0.7,
+    "multi_domain": 0.533,
+    "simple_factual": 0.267,
+    "unanswerable": 0.8
+  },
+  "refusal_reasons": {
+    "model": 35
+  }
+}

@@ -4,7 +4,8 @@
     python build_database.py --start 51 --stop 63 --db part3.db   # only rows 51-63
     python build_database.py --merge part1.db part2.db part3.db   # fix chunk IDs + merge
     python build_database.py --bm25                # rebuild the BM25 index
-    python build_database.py --splade              # build the SPLADE index
+    python build_database.py --splade              # build the SPLADE index (skipped if it exists)
+    python build_database.py --splade --force      # rebuild the SPLADE index
 """
 
 import argparse
@@ -244,6 +245,7 @@ if __name__ == "__main__":
     parser.add_argument("--merge", nargs="+", metavar="PART_DB", help="fix IDs and merge partial databases into --db")
     parser.add_argument("--bm25", action="store_true", help="rebuild the BM25 index")
     parser.add_argument("--splade", action="store_true", help="build the SPLADE index")
+    parser.add_argument("--force", action="store_true", help="rebuild the SPLADE index even if it exists")
     args = parser.parse_args()
 
     if args.merge:
@@ -254,6 +256,10 @@ if __name__ == "__main__":
         if args.bm25:
             build_and_save_bm25()
         if args.splade:
-            build_splade_index(load_splade_model())
+            from config import SPLADE_INDEX_PATH
+            if SPLADE_INDEX_PATH.exists() and not args.force:
+                print(f"SPLADE index already exists ({SPLADE_INDEX_PATH}); skipped. Use --force to rebuild.")
+            else:
+                build_splade_index(load_splade_model())
     else:
         build(args.db, args.start, args.stop)

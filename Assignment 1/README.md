@@ -91,6 +91,54 @@ It could be implemented using one of the following:
 
 ## Reproducibility
 
+### How to run
+Put the `Assignment 1` folder on Google Drive (`MyDrive/Assignment 1` or `MyDrive/nlp-tasks-2026/Assignment 1`),
+put Qwen3.5-4B in `MyDrive/models/Qwen3.5-4B`, open `run_rag_colab.ipynb` in Colab (T4 GPU) and run it from top to bottom.
+Locally, run the same commands from `Assignment 1/Code/` without the `!` (an NVIDIA GPU is needed).
+
+### Files created once (skipped when they already exist)
+| File in `data/` | Created by | Status |
+|---|---|---|
+| `student_assistant_rag_0_6B.db` (database, embeddings) | `python build_database.py` | in the repo |
+| `bm25_chunks.pkl` (BM25 index) | `python build_database.py --bm25` | in the repo |
+| `splade_index.npz` + chunk ids | `python build_database.py --splade` | one-time step |
+| `refusal_bm25.json` | `python calibrate_refusal.py --method bm25` | in the repo |
+| `refusal_dense.json` | `python calibrate_refusal.py --method dense` | one-time step |
+| `refusal_llm_judge.json` | `python calibrate_refusal.py --method llm_judge --retriever both --splade --reranker` | one-time step |
+
+Refusal `combined` is a majority vote of the three files above (refuse if 2 of 3 say refuse);
+it needs no calibration of its own.
+
+After a one-time step, commit the new file so nobody has to repeat it.
+`build_database.py --splade` and `calibrate_refusal.py` skip an existing file; add `--force` to redo it.
+`build_database.py --bm25` always rebuilds (fast). `build_database.py` with no flag only adds documents
+that are not yet in the database.
+
+### When to rebuild or recalibrate
+Only redo a step when something it depends on has changed:
+
+| What changed | Redo |
+|---|---|
+| Documents added or changed | `build_database.py`, then `--bm25`, `--splade --force`, and all calibrations with `--force` |
+| BM25 index rebuilt | `calibrate_refusal.py --method bm25 --force` |
+| Embedding model changed | the database embeddings, then `--method dense --force` |
+| Generator model, `TOP_K`, retriever, SPLADE or re-ranker changed | `--method llm_judge --force` (same retrieval options as the evaluation run) |
+| Question set (`data/dataset_100.json`) changed | all calibrations with `--force` |
+| Evaluation shows too many / too few refusals | that method with `--force --max-false-refusal <value>` |
+
+Nothing changed → nothing to redo. Do not run `build_database.py --merge` on the main database:
+it deletes and rewrites the output file.
+
+### Evaluation results
+Questions: `data/dataset_100.json` is used to calibrate the refusal methods; `data/test_60.json`
+(20 unanswerable, 15 simple, 15 multi-domain, 10 long-context, none repeated from the 100) is the
+held-out test set for the final numbers (`--dataset ../data/test_60.json`).
+`python run_eval.py [--retriever bm25|dense|both] [--splade] [--reranker] [--refusal none|bm25|dense|llm_judge|combined] --judge`
+writes `results/rag_<setting>.db`, `judge_<setting>.db` and `metrics_<setting>.json`
+(with `_test_60` added to the setting name for the test set).
+Runs are resumable: run the same command again after a disconnect. Answers must be generated again
+only when the pipeline setting changes (each setting has its own files).
+
 ### Hardware Requirements
 
 ### Software Requirements

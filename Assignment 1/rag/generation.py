@@ -69,7 +69,7 @@ def clean_answer(answer: str) -> str:
 # Model
 # =====================================================================
 def load_model(model_id=MODEL_ID, model_path=MODEL_PATH):
-    """Load Qwen3.5-4B (tokenizer from the Hub, weights from model_path)."""
+    """Load Qwen3.5-4B from model_path (tokenizer from the Hub only if model_path has none)."""
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -77,7 +77,11 @@ def load_model(model_id=MODEL_ID, model_path=MODEL_PATH):
         raise SystemExit("No CUDA GPU found.")
     print(f"GPU: {torch.cuda.get_device_name(0)}")
 
-    tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_path, local_files_only=True,
+                                                  trust_remote_code=True)
+    except (OSError, ValueError):     # no (or a broken) tokenizer in model_path
+        tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
     dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
     model = AutoModelForCausalLM.from_pretrained(
         model_path, dtype=dtype, device_map="auto",

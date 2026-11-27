@@ -3,7 +3,12 @@
     python calibrate_refusal.py --method bm25          # CPU only, seconds
     python calibrate_refusal.py --method dense         # loads Qwen3-Embedding-0.6B
     python calibrate_refusal.py --method llm_judge     # loads Qwen3.5-4B (GPU)
+    python calibrate_refusal.py --method llm_judge --retriever both --splade --reranker
+    llm_judge reads the retrieved chunks: calibrate it with the same
+    --retriever/--splade/--reranker options as the evaluation run that uses it.
+    (refusal "combined" is a majority vote of the three files; it needs no calibration of its own)
     python calibrate_refusal.py --method bm25 --max-false-refusal 0.05
+    (skipped if data/refusal_<method>.json exists; add --force to calibrate again)
 
 Writes:
     data/refusal_<method>.json            model + cut-off, loaded by refusal.RefusalSystem
@@ -25,8 +30,10 @@ from refusal import (
     bm25_features, dense_features,
 )
 
+METHODS = ["bm25", "dense", "llm_judge"]
 
-def feature_function(method):
+
+def feature_function(method, retriever="both", use_splade=False, use_reranker=False):
     """Load only what the method needs; return (feature_names, f(question) -> dict)."""
     if method == "bm25":
         from retrieval import load_bm25
@@ -41,7 +48,8 @@ def feature_function(method):
 
     if method == "llm_judge":
         from pipeline import RAGPipeline
-        rag = RAGPipeline(verbose=False)
+        rag = RAGPipeline(verbose=False, refusal_method="none", retriever=retriever,
+                          use_splade=use_splade, use_reranker=use_reranker)
         judge = LLMJudge(rag.tokenizer, rag.model)
         return LLM_JUDGE_FEATURES, lambda q: judge.features(q, rag.retrieve(q))
 
@@ -50,14 +58,24 @@ def feature_function(method):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--method", choices=["bm25", "dense", "llm_judge"], default="bm25")
+    parser.add_argument("--method", choices=METHODS, default="bm25")
     parser.add_argument("--dataset", default=str(DATASET_PATH))
     parser.add_argument("--max-false-refusal", type=float, default=0.10,
                         help="highest share of answerable questions that may be refused")
+    parser.add_argument("--force", action="store_true", help="calibrate again even if the file exists")
+    parser.add_argument("--retriever", choices=["both", "bm25", "dense"], default="both",
+                        help="retrieval used for llm_judge (match the evaluation run)")
+    parser.add_argument("--splade", action="store_true", help="llm_judge: use SPLADE")
+    parser.add_argument("--reranker", action="store_true", help="llm_judge: use the re-ranker")
     args = parser.parse_args()
 
+    target = DATA_DIR / f"refusal_{args.method}.json"
+    if target.exists() and not args.force:
+        print(f"{target} already exists; skipped. Use --force to calibrate again.")
+        return
+
     questions = json.loads(open(args.dataset, encoding="utf-8").read())
-    names, features_of = feature_function(args.method)
+    names, features_of = feature_function(args.method, args.retriever, args.splade, args.reranker)
 
     rows = []
     for i, item in enumerate(questions, start=1):

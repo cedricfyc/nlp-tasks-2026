@@ -1,0 +1,679 @@
+[
+  {
+    "id": "TL01",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "At my part-time job my supervisor repeatedly makes degrading remarks about my gender identity and I was moved to worse shifts. I only realised last week that this is discrimination. What deadlines apply if I want compensation?",
+    "ground_truth": "Under the General Equal Treatment Act you can claim damages and compensation (Section 15). You must assert the claims in writing to your employer within two months; the deadline starts when you become aware of the discrimination. You can then go to the labour court within three months of the written claim. Missing either deadline makes the claims unenforceable.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL02",
+    "type": "long_context",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "It is Saturday night, my GP's practice is closed, I have a high fever and need medicine, but I do not think it is life-threatening. What should I do?",
+    "ground_truth": "For acute but not life-threatening symptoms, call the on-call medical service 116 117 (or use 116117.de). If the situation becomes life-threatening, call 112 immediately. For medicine, one pharmacy per area is on call at night and at weekends (search 'Apothekennotdienst' or check pharmacy doors); prescription-only medicine requires a prescription.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL03",
+    "type": "long_context",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I want to apply for a programme that is allocated through hochschulstart.de, and the university also uses uni-assist. I have created my uni-assist application but it asks for numbers I do not have. What do I need?",
+    "ground_truth": "For DoSV programmes you must first register at dosv.hochschulstart.de to get a personal identification number made up of a BID (applicant ID) and a BAN (applicant authentication number), and enter them in My assist. Without correct BID and BAN uni-assist cannot forward the application to the university. Apply early, ideally about 8 weeks before the deadline.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL04",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "My rent has been unchanged for two years. My landlord now wants to raise it by 25 percent in one step, says it is still below other flats in the area, and the city has a housing shortage. Is this allowed?",
+    "ground_truth": "No, not in full. A rent increase up to the local comparative rent is possible if the rent has been unchanged for 15 months, but within three years the rent may not rise by more than 20 percent, and in areas with a housing shortage the state can lower this cap to 15 percent. Check with the city which cap applies. The cap does not apply to increases after modernisation or to agreed graduated rents.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL05",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I moved out eight months ago, returned the keys and there was no damage, but the landlord still has not paid back my deposit and does not answer. What can I do?",
+    "ground_truth": "The usual review period is up to six months, after which the deposit must be repaid with interest if no claims remain. Ask the landlord in writing to pay, with a deadline; in a second letter announce legal steps. Next steps are a payment order (Mahnbescheid) and, as a last resort, a lawsuit; getting legal advice is recommended.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL06",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I have a residence permit for employment and want to switch to a different employer. My current contract has just been terminated. What do I have to do?",
+    "ground_truth": "The permit only entitles you to the job specified, so the supplementary sheet of your electronic residence title must be changed for a new employer. You must inform the immigration authority within 14 days of the termination; usually you are then given a reasonable period (six months) to find new employment.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL07",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I share a flat with two others. The flat is registered for the broadcasting licence fee in my name, I pay alone, and I just got a reminder because I was late. How much should my flatmates pay, and how do I avoid more fees?",
+    "ground_truth": "The fee is 18.36 euros per month per residential unit, so with three people each flatmate owes you 6.12 euros (unless exempt). Payments are due every three, six or twelve months; a reminder fee of at least 8 euros applies if you are four weeks late. Agreeing to direct debit avoids missed payments.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL08",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "A landlord asked me for a SCHUFA report. I printed my free SCHUFA data copy, but he said it is not what he needs. What is the difference, and what else matters for my score?",
+    "ground_truth": "The free data copy (Art. 15 GDPR) is a detailed record for yourself and not meant for landlords; they want the paid Bonitätsauskunft (about 29.95 euros). Requesting your own report does not affect your score. Settled negative entries are usually deleted three years after payment (18 months if paid within 100 days).",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL09",
+    "type": "long_context",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am a non-EU student with a mini-job. I received a social security certificate and my employer asked whether I want to be exempted from pension insurance. I plan to stay in Germany long-term. What should I consider?",
+    "ground_truth": "Keep the social security certificate: it contains your pension insurance number (contact the Deutsche Rentenversicherung if you did not get it). You can ask to be exempted, which slightly increases net pay, but the contributions can count when you later apply for a permanent residence permit. Also respect the work limit of 140 full or 280 half days per year.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TL10",
+    "type": "long_context",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "My neighbours complain that my music and calls are too loud in the evening, and I also hear them late at night. Is there a fixed volume limit, and what can tenants do about noise?",
+    "ground_truth": "Room volume (Zimmerlautstärke) is not defined by law and depends on how others perceive it, but tenants have a right to have rest periods respected. A tenant disturbed by noise should contact the landlord and keep a noise log; a rent reduction may be possible in some cases.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS01",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "How soon after moving into a flat do I have to register my address?",
+    "ground_truth": "You must register with the registration authority within two weeks of moving in. When you move out of Germany without a new German address, you must deregister within two weeks (at the earliest one week before moving out).",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS02",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "How much is the broadcasting licence fee (Rundfunkbeitrag)?",
+    "ground_truth": "It is 18.36 euros per month per residential unit (as of 2025). It can be paid every three, six or twelve months; a reminder fee of at least 8 euros is charged if a payment is at least four weeks late, so direct debit is advisable.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS03",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "In a shared flat, does every flatmate have to pay the broadcasting licence fee?",
+    "ground_truth": "No. The fee is payable once per residential unit. One person pays it, and the other residents owe that person their share (for example 9.18 euros each when two people share, 6.12 euros each when three share). People exempted from the fee do not have to share the cost.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS04",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is the maximum rental deposit (Mietkaution) a landlord may ask for?",
+    "ground_truth": "At most three monthly rents without operating costs (net cold rent). Tenants may pay the deposit in instalments, usually three equal monthly payments; contract terms that disadvantage the tenant are generally invalid.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS05",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "How long may a landlord keep the deposit after I move out?",
+    "ground_truth": "The landlord has a review period after the tenant moves out, usually up to six months. If no claims remain, the deposit must be repaid together with interest.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS06",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is the Kappungsgrenze for rent increases?",
+    "ground_truth": "A cap on increases up to the local comparative rent: within three years the rent may not rise by more than 20 percent (excluding increases after modernisation or for operating costs). In areas with a housing shortage the federal states can lower it to 15 percent. It does not apply to graduated rents (Staffelmiete) agreed in the contract.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS07",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is the longest notice period a rental contract may require from a tenant?",
+    "ground_truth": "For tenants the notice period may not be longer than three months.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS08",
+    "type": "simple_factual",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "How can I see my SCHUFA data for free?",
+    "ground_truth": "You can request one free data copy per year (Datenkopie under Art. 15 GDPR), and since 2026 you can view your score in a free online SCHUFA account after verifying your identity. The free copy is for yourself; landlords usually want the paid Bonitätsauskunft (about 29.95 euros).",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS09",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What does personal liability insurance (private Haftpflichtversicherung) cover?",
+    "ground_truth": "It pays for personal injury, property damage and financial losses you cause to other people, and it fends off unjustified claims against you. Good cover is available for roughly 50 euros a year for a single person and under 100 euros for a family.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS10",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Which number do I call in a life-threatening medical emergency?",
+    "ground_truth": "Call the Europe-wide emergency number 112 for an ambulance (and the fire brigade); police is 110. For acute but not life-threatening problems outside practice hours, the on-call medical service 116 117 can be used.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS11",
+    "type": "simple_factual",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "How do I find a pharmacy that is open at night or at the weekend?",
+    "ground_truth": "In each local area one pharmacy is always on call at night and at weekends. You can find it online (search for 'Apothekennotdienst'), and the on-call rosters are displayed on pharmacy doors. Prescription-only medicines still require a doctor's prescription.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS12",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the electronic residence title (eAT)?",
+    "ground_truth": "A cheque-card-sized plastic card issued as the residence title. Its chip stores personal data, biometric features (photo, fingerprints) and conditions; it also has an optional online ID function.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS13",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is a VPD (Vorprüfungsdokumentation) from uni-assist?",
+    "ground_truth": "A special uni-assist procedure in which uni-assist checks your documents and issues a preliminary review documentation. You apply for it in My assist (pay the fee, upload documents), but you still have to apply directly to the university with the VPD, so you should plan extra time.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS14",
+    "type": "simple_factual",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "How early should I submit my application through uni-assist?",
+    "ground_truth": "As early as possible, ideally about 8 weeks before the application deadline, so missing documents can still be submitted in time. Allow even more time if you need a VPD.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TS15",
+    "type": "simple_factual",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Can a mini-jobber be exempted from pension insurance contributions?",
+    "ground_truth": "Yes. Mini-jobbers can ask their employer to exempt them from the pension insurance obligation, which slightly increases net pay. However, paid contributions can be counted when applying for a permanent residence permit.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM01",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I am moving into a shared flat. Which registrations and household fees should I deal with after moving in?",
+    "ground_truth": "Register your address within two weeks, with the landlord's confirmation (Wohnungsgeberbestätigung); registration is also needed to receive a tax identification number. The broadcasting licence fee is due once per residential unit, so check whether a flatmate already pays it and share the cost with them rather than registering a second time.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM02",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "My parents are willing to act as guarantors (Bürgschaft), but the landlord also wants a cash deposit of three months' rent. Is that allowed?",
+    "ground_truth": "No. A deposit and a guarantee must be expressly agreed in the lease, and together they may not exceed the legal limit of three monthly rents without operating costs. Demanding a guarantee on top of a three-month cash deposit is over-security and not permitted. A guarantor must be at least 18 and financially able to pay.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM03",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am a non-EU student and want to earn money for my rent as a freelancer. Is that possible?",
+    "ground_truth": "Generally not: international students from non-EU countries with a study residence permit may work 140 full days or 280 half days per year but may not be self-employed or work as freelancers. Exceptions can only be approved by the immigration authority.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM04",
+    "type": "multi_domain",
+    "domains": [
+      "Healthcare",
+      "Working and Finances"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "I will attend a language course before my degree. Which health insurance can I get, and what changes if I take a job?",
+    "ground_truth": "Language and preparatory course students can generally only take private health insurance; statutory student insurance is for students enrolled in a degree programme. If someone in study preparation takes a job paying more than 603 euros a month (2026) that is not limited to three months, they become compulsorily insured as an employee.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM05",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I have a low income and do not receive BAföG. Can I be exempted from the broadcasting licence fee?",
+    "ground_truth": "Exemptions exist for BAföG recipients, recipients of other social benefits and severely disabled people. International students without BAföG or other benefits can only seek exemption under the hardship clause, which depends on case law and an individual application.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM06",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I just arrived in Germany and have no SCHUFA history. How can I convince a landlord and build a credit record?",
+    "ground_truth": "New arrivals have an empty SCHUFA file. Opening a German bank account and a postpaid phone contract builds a score in about 6-12 months. Landlords usually want the paid Bonitätsauskunft, not the free data copy. A guarantee from parents can add security, within the three-month-rent limit.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM07",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I keep my room in my home town and also rent a flat at my place of study. What does that mean for registration and the licence fee?",
+    "ground_truth": "You must register the new address within two weeks and tell the authority which residence is your principal one; changes of principal residence must also be reported within two weeks. The licence fee is payable per residential unit, so a second flat generally costs a second fee; only people living alone or with their spouse in both flats can be exempted for the second one.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM08",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "My landlord announced a rent increase and I only earn money through a mini-job. What limits apply to the increase?",
+    "ground_truth": "The rent must have been unchanged for at least 15 months, may not exceed the local comparative rent, and may not rise by more than 20 percent within three years (15 percent in areas with a housing shortage). These limits do not apply to increases after modernisation or to graduated rents agreed in the lease, so check which rule applies and whether the new rent is affordable.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM09",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Rent and moving"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I study in Germany with my child. How do I apply for child benefit (Kindergeld)?",
+    "ground_truth": "Apply to the Familienkasse (attached to the employment agency). You need the tax identification numbers of yourself and your child, which are sent automatically after registering your address or after a birth in Germany. Back payments are only possible for six months, so apply promptly.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM10",
+    "type": "multi_domain",
+    "domains": [
+      "Starting studies",
+      "Rent and moving",
+      "Healthcare"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "I have just arrived with a student visa. What should I take care of in my first weeks?",
+    "ground_truth": "Register your address within two weeks (you need the landlord's confirmation). Go to the immigration authority in person to apply for your residence title, which is issued as an electronic card. Make sure your health insurance is in place: visa applicants need private cover before entry, and eligible students can switch to statutory insurance after arriving.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM11",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I accidentally damaged something belonging to my flatmate. Will insurance pay?",
+    "ground_truth": "Personal liability insurance covers property damage, personal injury and financial losses you cause to other people, so check whether you have a policy. Without one you have to pay the costs yourself.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM12",
+    "type": "multi_domain",
+    "domains": [
+      "Rent and moving",
+      "Working and Finances"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "I am finishing my studies and leaving Germany. What should I cancel or arrange for my flat?",
+    "ground_truth": "Give notice on the lease (a tenant's notice period may not exceed three months). Deregister with the registration office within two weeks of moving out (at the earliest one week before), and use that certificate to cancel your broadcasting licence fee. After you move out, the landlord may take up to about six months to check claims before returning the deposit.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM13",
+    "type": "multi_domain",
+    "domains": [
+      "Working and Finances",
+      "Starting studies"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "I am 23 and starting university. Am I still covered by my parents' liability insurance?",
+    "ground_truth": "In a family liability insurance children are insured up to the end of their first (vocational) training, so check whether your current studies still count as first training under your parents' policy. Otherwise take out a single liability insurance, which costs roughly 50 euros a year.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM14",
+    "type": "multi_domain",
+    "domains": [
+      "Healthcare",
+      "Working and Finances"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "My spouse is in my statutory family health insurance and wants to start a mini-job. Does that affect the insurance?",
+    "ground_truth": "Family insurance only applies if the spouse's regular income is not higher than 565 euros a month, or 603 euros for a mini-job (2026). Jobs of up to three months are not counted. Higher regular income ends free family insurance.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TM15",
+    "type": "multi_domain",
+    "domains": [
+      "Healthcare",
+      "Starting studies"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "I am 31 and need a student visa for Germany. Which health insurance should I take?",
+    "ground_truth": "Students over 30 can only take private health insurance. Visa applicants must have private health insurance as part of the visa application before entering Germany.",
+    "is_unanswerable": false
+  },
+  {
+    "id": "TU01",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "What is my current SCHUFA score?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU02",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Has the licence fee service registered my new flat under my name?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU03",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "By how much will my landlord raise my rent next year?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU04",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Which room did my future flatmates decide to give me?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU05",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Will the Familienkasse approve my child benefit application?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU06",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "What is my tax identification number?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU07",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "How many days have I already worked this calendar year?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU08",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "Will my employer extend my working-student contract next semester?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU09",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What grade did I get in my last exam?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU10",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the current status of my uni-assist application?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU11",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What are my BID and BAN numbers for hochschulstart.de?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU12",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Which pharmacy near my flat is on night duty tonight?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU13",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "How much did my liability insurer pay for my claim last month?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU14",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Has my former landlord already transferred my deposit back?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU15",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "Which vaccinations are recorded in my vaccination card?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU16",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "Will the immigration office extend my residence permit next month?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU17",
+    "type": "unanswerable",
+    "domains": [
+      "Starting studies"
+    ],
+    "primary_domain": "Starting studies",
+    "question": "What is the PIN for the online ID function of my residence card?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU18",
+    "type": "unanswerable",
+    "domains": [
+      "Rent and moving"
+    ],
+    "primary_domain": "Rent and moving",
+    "question": "Did my neighbour file a noise complaint against me with the landlord?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU19",
+    "type": "unanswerable",
+    "domains": [
+      "Working and Finances"
+    ],
+    "primary_domain": "Working and Finances",
+    "question": "How much money did my parents transfer to me this month?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  },
+  {
+    "id": "TU20",
+    "type": "unanswerable",
+    "domains": [
+      "Healthcare"
+    ],
+    "primary_domain": "Healthcare",
+    "question": "How long is the waiting time at my local hospital's emergency department right now?",
+    "ground_truth": "I don't have enough information to answer that.",
+    "is_unanswerable": true
+  }
+]

@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np
 
 # ---------------- Paths ----------------
-PROJECT_DIR = Path(__file__).resolve().parent          # Assignment 1/rag_project
+PROJECT_DIR = Path(__file__).resolve().parent          # Assignment 1/Code
 ASSIGNMENT_DIR = PROJECT_DIR.parent                     # Assignment 1
 DATA_DIR = Path(os.environ.get("RAG_DATA_DIR", ASSIGNMENT_DIR / "data"))
 
@@ -20,7 +20,8 @@ SPLADE_INDEX_PATH = DATA_DIR / "splade_index.npz"
 SPLADE_IDS_PATH = DATA_DIR / "splade_chunk_ids.npy"
 DATASET_PATH = DATA_DIR / "dataset_100.json"
 CSV_PATH = DATA_DIR / "document_metadata.csv"
-DOCS_PATH = ASSIGNMENT_DIR / "RAG Documents" / "rag_documents"
+DOCS_PATH = ASSIGNMENT_DIR / "RAG Documents"            # PDFs in RAG Native/ and RAG Screenshots/
+RESULTS_DIR = Path(os.environ.get("RAG_RESULTS_DIR", ASSIGNMENT_DIR / "results"))
 
 # ---------------- Database building ----------------
 EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"
@@ -30,12 +31,15 @@ EMBED_BATCH_SIZE = 32
 # ---------------- Retrieval ----------------
 EMBEDDING_MODEL_NAME = EMBED_MODEL
 EMBED_TYPE = np.float32
-TOP_K = 3                     # chunks per search method
+TOP_K = 3                     # passages given to the generator (default; the UI can choose 3-5)
+TOP_K_CHOICES = (3, 4, 5)     # values POST /ask accepts for top_k
+CANDIDATE_K = 20              # candidates per search; the best CANDIDATE_K after fusion go to the re-ranker
 RRF_K = 60                    # Reciprocal Rank Fusion constant
 
 SPLADE_MODEL_NAME = "naver/splade-v3"           # gated: accept the licence on Hugging Face
 RERANKER_MODEL_NAME = "Qwen/Qwen3-Reranker-0.6B"  # or "Qwen/Qwen3-Reranker-4B"
-RERANK_TOP_N = 6              # chunks kept after re-ranking
+RERANK_TOP_N = 6              # default for rerank() called on its own (the pipeline keeps top_k)
+RETRIEVER = "both"            # "both" (BM25 + dense), "bm25" or "dense" (baseline comparison)
 
 # ---------------- Generation ----------------
 MODEL_ID = "Qwen/Qwen3.5-4B"
@@ -45,3 +49,10 @@ MODEL_PATH = os.environ.get("RAG_MODEL_PATH", "/content/drive/MyDrive/models/Qwe
 CITATION_MAX_RETRIES = 1      # re-generations when citations are missing or point to no source
 CITATION_STRICT = True        # remove sentences that are still uncited after the retries
 CITATION_SNIPPET_CHARS = 300  # length of the source excerpt returned with each citation
+
+# ---------------- Refusal ----------------
+# "none"      : only the generator's own refusal (system prompt)
+# "bm25" / "dense" / "llm_judge" : calibrated check before generation (calibrate_refusal.py)
+# Change to the best method after the comparison (run_eval.py).
+REFUSAL_METHOD = os.environ.get("RAG_REFUSAL_METHOD", "none")
+REFUSAL_METHODS = ("none", "bm25", "dense", "llm_judge", "combined")   # combined = majority vote of the three

@@ -6,6 +6,7 @@ rank_bm25
 pandas
 numpy
 scipy
+scikit-learn       # refusal calibration
 flask
 huggingface_hub
 docling            # only needed for build_database.py
