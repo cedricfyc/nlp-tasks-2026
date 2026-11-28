@@ -18,9 +18,11 @@ DB_PATH = Path(os.environ.get("RAG_DB_PATH", DATA_DIR / "student_assistant_rag_0
 BM25_CACHE = Path(os.environ.get("RAG_BM25_CACHE", DATA_DIR / "bm25_chunks.pkl"))
 SPLADE_INDEX_PATH = DATA_DIR / "splade_index.npz"
 SPLADE_IDS_PATH = DATA_DIR / "splade_chunk_ids.npy"
-DATASET_PATH = DATA_DIR / "dataset_100.json"
+#DATASET_PATH = DATA_DIR / "dataset_100.json"
+DATASET_PATH = ASSIGNMENT_DIR / "testing" / "Test Datasets" / "dataset_100.json"
 CSV_PATH = DATA_DIR / "document_metadata.csv"
-DOCS_PATH = ASSIGNMENT_DIR / "RAG Documents"            # PDFs in RAG Native/ and RAG Screenshots/
+#DOCS_PATH = ASSIGNMENT_DIR / "RAG Documents"            # PDFs in RAG Native/ and RAG Screenshots/
+DOCS_PATH = DATA_DIR / "raw documentation"              # PDFs in RAG Native/ and RAG Screenshots/
 RESULTS_DIR = Path(os.environ.get("RAG_RESULTS_DIR", ASSIGNMENT_DIR / "results"))
 
 # ---------------- Database building ----------------
